@@ -1,0 +1,1004 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{0E8F971C-9AFD-4415-B1E2-6C4CC9A94375}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Youtube_Music_Video_Downloader__W10_</RootNamespace>
+    <AssemblyName>Youtube Music Video Downloader [W10]</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetPlatformVersion>10.0.17763.0</TargetPlatformVersion>
+    <TargetPlatformMinVersion>10.0.10240.0</TargetPlatformMinVersion>
+    <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
+    <EnableDotNetNativeCompatibleProfile>true</EnableDotNetNativeCompatibleProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PackageCertificateKeyFile>PrimeTube W10_StoreKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateThumbprint>15A644B64CA11480556CDA7B9DF5F133130BD6C7</PackageCertificateThumbprint>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <AppxSymbolPackageEnabled>False</AppxSymbolPackageEnabled>
+    <AppxBundle>Always</AppxBundle>
+    <AppxBundlePlatforms>x86|x64|arm</AppxBundlePlatforms>
+    <RuntimeIdentifiers>win10-arm;win10-arm-aot;win10-x86;win10-x86-aot;win10-x64;win10-x64-aot</RuntimeIdentifiers>
+    <GenerateAppInstallerFile>False</GenerateAppInstallerFile>
+    <AppInstallerUpdateFrequency>1</AppInstallerUpdateFrequency>
+    <AppInstallerCheckForUpdateFrequency>OnApplicationRun</AppInstallerCheckForUpdateFrequency>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;NETFX_CORE;WINDOWS_UWP;CODE_ANALYSIS;WINRT</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP;CODE_ANALYSIS;WINRT;FEAT_SAFE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;NETFX_CORE;WINDOWS_UWP;CODE_ANALYSIS;WINRT</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <UseDotNetNativeToolchain>false</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP;CODE_ANALYSIS;WINRT;FEAT_SAFE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;NETFX_CORE;WINDOWS_UWP;CODE_ANALYSIS;WINRT</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>false</UseDotNetNativeToolchain>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <EnableGatekeeperAnalysis>false</EnableGatekeeperAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP;CODE_ANALYSIS;WINRT</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+    <None Include="Assets\YouTube\Thumbs.db" />
+    <None Include="PrimeTube W10_StoreKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="APIConstants.cs" />
+    <Compile Include="APIs\PrimeTubeAPIs.cs" />
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationSetting.cs" />
+    <Compile Include="Buffer\AbstractPacket.cs" />
+    <Compile Include="Common\BindableBase.cs" />
+    <Compile Include="Buffer\HexEncoding.cs" />
+    <Compile Include="Buffer\PacketInspection.cs" />
+    <Compile Include="Buffer\PacketReader.cs" />
+    <Compile Include="Buffer\PacketWriter.cs" />
+    <Compile Include="Controls\AdNetworkEnum.cs" />
+    <Compile Include="Controls\RichTextBoxHelper.cs" />
+    <Compile Include="Controls\TabHeader.xaml.cs">
+      <DependentUpon>TabHeader.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UnifiedBannerAds_90x728.xaml.cs">
+      <DependentUpon>UnifiedBannerAds_90x728.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UnifiedInterstitialAds.cs" />
+    <Compile Include="Converter\BooleanToVisibilityConverter.cs" />
+    <Compile Include="Converter\DateTimeToStringConverter.cs" />
+    <Compile Include="Converter\IntegerCommasSeperatorConverter.cs" />
+    <Compile Include="Converter\MaxLikesDislikesConverter.cs" />
+    <Compile Include="Converter\NullVideoImageConverter.cs" />
+    <Compile Include="Converter\ParallaxConverter.cs" />
+    <Compile Include="Converter\ParallaxScaleConverter.cs" />
+    <Compile Include="Converter\RelativeDateTimeConverter.cs" />
+    <Compile Include="Converter\StringURIToURIConverter.cs" />
+    <Compile Include="DownloadPage.xaml.cs">
+      <DependentUpon>DownloadPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Helper\BackgroundDownloaderHelper.cs" />
+    <Compile Include="Helper\FileNameHelper.cs" />
+    <Compile Include="Helper\FrameworkElementExtensions.cs" />
+    <Compile Include="Helper\LockScreen.cs" />
+    <Compile Include="Helper\SecondaryTileHelper.cs" />
+    <Compile Include="Helper\UriParameterHelper.cs" />
+    <Compile Include="Helper\VideoMP3Transcoder.cs" />
+    <Compile Include="HTTPHelper\Http.cs" />
+    <Compile Include="HTTPHelper\HttpGetRequest.cs" />
+    <Compile Include="HTTPHelper\HttpPostFile.cs" />
+    <Compile Include="HTTPHelper\HttpPostRequest.cs" />
+    <Compile Include="HTTPHelper\HttpResponse.cs" />
+    <Compile Include="HTTPHelper\IHttpRequest.cs" />
+    <Compile Include="Layouts\RatingControl.xaml.cs">
+      <DependentUpon>RatingControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LoginPage.xaml.cs">
+      <DependentUpon>LoginPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NoNetworkPage.xaml.cs">
+      <DependentUpon>NoNetworkPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="protobuf_WinRT\BclHelpers.cs" />
+    <Compile Include="protobuf_WinRT\BufferExtension.cs" />
+    <Compile Include="protobuf_WinRT\BufferPool.cs" />
+    <Compile Include="protobuf_WinRT\CallbackAttributes.cs" />
+    <Compile Include="protobuf_WinRT\Compiler\CompilerContext.cs" />
+    <Compile Include="protobuf_WinRT\Compiler\CompilerDelegates.cs" />
+    <Compile Include="protobuf_WinRT\Compiler\Local.cs" />
+    <Compile Include="protobuf_WinRT\DataFormat.cs" />
+    <Compile Include="protobuf_WinRT\Extensible.cs" />
+    <Compile Include="protobuf_WinRT\ExtensibleUtil.cs" />
+    <Compile Include="protobuf_WinRT\GlobalSuppressions.cs" />
+    <Compile Include="protobuf_WinRT\Helpers.cs" />
+    <Compile Include="protobuf_WinRT\IExtensible.cs" />
+    <Compile Include="protobuf_WinRT\IExtension.cs" />
+    <Compile Include="protobuf_WinRT\ImplicitFields.cs" />
+    <Compile Include="protobuf_WinRT\KeyValuePairProxy.cs" />
+    <Compile Include="protobuf_WinRT\Meta\AttributeMap.cs" />
+    <Compile Include="protobuf_WinRT\Meta\BasicList.cs" />
+    <Compile Include="protobuf_WinRT\Meta\CallbackSet.cs" />
+    <Compile Include="protobuf_WinRT\Meta\MetaType.cs" />
+    <Compile Include="protobuf_WinRT\Meta\RuntimeTypeModel.cs" />
+    <Compile Include="protobuf_WinRT\Meta\SubType.cs" />
+    <Compile Include="protobuf_WinRT\Meta\TypeFormatEventArgs.cs" />
+    <Compile Include="protobuf_WinRT\Meta\TypeModel.cs" />
+    <Compile Include="protobuf_WinRT\Meta\ValueMember.cs" />
+    <Compile Include="protobuf_WinRT\NetObjectCache.cs" />
+    <Compile Include="protobuf_WinRT\PrefixStyle.cs" />
+    <Compile Include="protobuf_WinRT\ProtoContractAttribute.cs" />
+    <Compile Include="protobuf_WinRT\ProtoConverterAttribute.cs" />
+    <Compile Include="protobuf_WinRT\ProtoEnumAttribute.cs" />
+    <Compile Include="protobuf_WinRT\ProtoException.cs" />
+    <Compile Include="protobuf_WinRT\ProtoIgnoreAttribute.cs" />
+    <Compile Include="protobuf_WinRT\ProtoIncludeAttribute.cs" />
+    <Compile Include="protobuf_WinRT\ProtoMemberAttribute.cs" />
+    <Compile Include="protobuf_WinRT\ProtoReader.cs" />
+    <Compile Include="protobuf_WinRT\ProtoWriter.cs" />
+    <Compile Include="protobuf_WinRT\SerializationContext.cs" />
+    <Compile Include="protobuf_WinRT\Serializer.cs" />
+    <Compile Include="protobuf_WinRT\Serializers\ArrayDecorator.cs" />
+    <Compile Include="protobuf_WinRT\Serializers\BlobSerializer.cs" />
+    <Compile Include="protobuf_WinRT\Serializers\BooleanSerializer.cs" />
+    <Compile Include="protobuf_WinRT\Serializers\ByteSerializer.cs" />
+    <Compile Include="protobuf_WinRT\Serializers\CharSerializer.cs" />
+    <Compile Include="protobuf_WinRT\Serializers\CompiledSerializer.cs" />
+    <Compile Include="protobuf_WinRT\Serializers\DateTimeSerializer.cs" />
+    <Compile Include="protobuf_WinRT\Serializers\DecimalSerializer.cs" />
+    <Compile Include="protobuf_WinRT\Serializers\DefaultValueDecorator.cs" />
+    <Compile Include="protobuf_WinRT\Serializers\DoubleSerializer.cs" />
+    <Compile Include="protobuf_WinRT\Serializers\EnumSerializer.cs" />
+    <Compile Include="protobuf_WinRT\Serializers\FieldDecorator.cs" />
+    <Compile Include="protobuf_WinRT\Serializers\GuidSerializer.cs" />
+    <Compile Include="protobuf_WinRT\Serializers\ImmutableCollectionDecorator.cs" />
+    <Compile Include="protobuf_WinRT\Serializers\Int16Serializer.cs" />
+    <Compile Include="protobuf_WinRT\Serializers\Int32Serializer.cs" />
+    <Compile Include="protobuf_WinRT\Serializers\Int64Serializer.cs" />
+    <Compile Include="protobuf_WinRT\Serializers\IProtoSerializer.cs" />
+    <Compile Include="protobuf_WinRT\Serializers\IProtoTypeSerializer.cs" />
+    <Compile Include="protobuf_WinRT\Serializers\ISerializerProxy.cs" />
+    <Compile Include="protobuf_WinRT\Serializers\KeyValuePairDecorator.cs" />
+    <Compile Include="protobuf_WinRT\Serializers\ListDecorator.cs" />
+    <Compile Include="protobuf_WinRT\Serializers\MemberSpecifiedDecorator.cs" />
+    <Compile Include="protobuf_WinRT\Serializers\NetObjectSerializer.cs" />
+    <Compile Include="protobuf_WinRT\Serializers\NullDecorator.cs" />
+    <Compile Include="protobuf_WinRT\Serializers\ParseableSerializer.cs" />
+    <Compile Include="protobuf_WinRT\Serializers\PropertyDecorator.cs" />
+    <Compile Include="protobuf_WinRT\Serializers\ProtoDecoratorBase.cs" />
+    <Compile Include="protobuf_WinRT\Serializers\SByteSerializer.cs" />
+    <Compile Include="protobuf_WinRT\Serializers\SingleSerializer.cs" />
+    <Compile Include="protobuf_WinRT\Serializers\StringSerializer.cs" />
+    <Compile Include="protobuf_WinRT\Serializers\SubItemSerializer.cs" />
+    <Compile Include="protobuf_WinRT\Serializers\SurrogateSerializer.cs" />
+    <Compile Include="protobuf_WinRT\Serializers\SystemTypeSerializer.cs" />
+    <Compile Include="protobuf_WinRT\Serializers\TagDecorator.cs" />
+    <Compile Include="protobuf_WinRT\Serializers\TimeSpanSerializer.cs" />
+    <Compile Include="protobuf_WinRT\Serializers\TupleSerializer.cs" />
+    <Compile Include="protobuf_WinRT\Serializers\TypeSerializer.cs" />
+    <Compile Include="protobuf_WinRT\Serializers\UInt16Serializer.cs" />
+    <Compile Include="protobuf_WinRT\Serializers\UInt32Serializer.cs" />
+    <Compile Include="protobuf_WinRT\Serializers\UInt64Serializer.cs" />
+    <Compile Include="protobuf_WinRT\Serializers\UriDecorator.cs" />
+    <Compile Include="protobuf_WinRT\ServiceModel\ProtoBehaviorAttribute.cs" />
+    <Compile Include="protobuf_WinRT\ServiceModel\ProtoBehaviorExtensionElement.cs" />
+    <Compile Include="protobuf_WinRT\ServiceModel\ProtoEndpointBehavior.cs" />
+    <Compile Include="protobuf_WinRT\ServiceModel\ProtoOperationBehavior.cs" />
+    <Compile Include="protobuf_WinRT\ServiceModel\XmlProtoSerializer.cs" />
+    <Compile Include="protobuf_WinRT\SubItemToken.cs" />
+    <Compile Include="protobuf_WinRT\WireType.cs" />
+    <Compile Include="SettingsPage.xaml.cs">
+      <DependentUpon>SettingsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Util\CustomXorEncryption.cs" />
+    <Compile Include="Util\DateTimeUtility.cs" />
+    <Compile Include="ViewModel\ChannelViewModel.cs" />
+    <Compile Include="ViewModel\Incremental.cs" />
+    <Compile Include="ViewModel\MainViewModel.cs" />
+    <Compile Include="ViewModel\UserViewModel.cs" />
+    <Compile Include="ViewModel\SearchViewModel.cs" />
+    <Compile Include="ViewModel\VideoViewModel.cs" />
+    <Compile Include="YouTube\APIKeys.cs" />
+    <Compile Include="YouTube\Json\SubscriptionResultObject.cs" />
+    <Compile Include="YouTube\YouTubeAuthenticatedAPI.cs" />
+    <Compile Include="YouTube\YoutubeService.cs" />
+    <Compile Include="YouTube\YouTubeUserHandler.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\BadgeLogo.scale-100.png" />
+    <Content Include="Assets\BadgeLogo.scale-125.png" />
+    <Content Include="Assets\BadgeLogo.scale-150.png" />
+    <Content Include="Assets\BadgeLogo.scale-200.png" />
+    <Content Include="Assets\BadgeLogo.scale-400.png" />
+    <Content Include="Assets\image_star.png" />
+    <Content Include="Assets\sleepy_doge.jpg" />
+    <Content Include="Assets\SplashScreen.scale-100.png" />
+    <Content Include="Assets\SplashScreen.scale-125.png" />
+    <Content Include="Assets\SplashScreen.scale-150.png" />
+    <Content Include="Assets\SplashScreen.scale-400.png" />
+    <Content Include="Assets\sports.png" />
+    <Content Include="Assets\Square150x150Logo.scale-100.png" />
+    <Content Include="Assets\Square150x150Logo.scale-125.png" />
+    <Content Include="Assets\Square150x150Logo.scale-150.png" />
+    <Content Include="Assets\Square150x150Logo.scale-400.png" />
+    <Content Include="Assets\Square310x310Logo.scale-100.png" />
+    <Content Include="Assets\Square310x310Logo.scale-125.png" />
+    <Content Include="Assets\Square310x310Logo.scale-150.png" />
+    <Content Include="Assets\Square310x310Logo.scale-200.png" />
+    <Content Include="Assets\Square310x310Logo.scale-400.png" />
+    <Content Include="Assets\Square44x44Logo.altform-unplated_targetsize-16.png" />
+    <Content Include="Assets\Square44x44Logo.altform-unplated_targetsize-256.png" />
+    <Content Include="Assets\Square44x44Logo.altform-unplated_targetsize-32.png" />
+    <Content Include="Assets\Square44x44Logo.altform-unplated_targetsize-48.png" />
+    <Content Include="Assets\Square44x44Logo.scale-100.png" />
+    <Content Include="Assets\Square44x44Logo.scale-125.png" />
+    <Content Include="Assets\Square44x44Logo.scale-150.png" />
+    <Content Include="Assets\Square44x44Logo.scale-400.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-16.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-256.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-32.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-48.png" />
+    <Content Include="Assets\Square71x71Logo.scale-100.png" />
+    <Content Include="Assets\Square71x71Logo.scale-125.png" />
+    <Content Include="Assets\Square71x71Logo.scale-150.png" />
+    <Content Include="Assets\Square71x71Logo.scale-200.png" />
+    <Content Include="Assets\Square71x71Logo.scale-400.png" />
+    <Content Include="Assets\StoreLogo.scale-100.png" />
+    <Content Include="Assets\StoreLogo.scale-125.png" />
+    <Content Include="Assets\StoreLogo.scale-150.png" />
+    <Content Include="Assets\StoreLogo.scale-200.png" />
+    <Content Include="Assets\StoreLogo.scale-400.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-100.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-125.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-150.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-400.png" />
+    <Content Include="Assets\YouTube\abc_ab_share_pack_holo_dark.9.png" />
+    <Content Include="Assets\YouTube\abc_ab_share_pack_holo_light.9.png" />
+    <Content Include="Assets\YouTube\abc_btn_check_to_on_mtrl_000.png" />
+    <Content Include="Assets\YouTube\abc_btn_check_to_on_mtrl_015.png" />
+    <Content Include="Assets\YouTube\abc_btn_radio_to_on_mtrl_000.png" />
+    <Content Include="Assets\YouTube\abc_btn_radio_to_on_mtrl_015.png" />
+    <Content Include="Assets\YouTube\abc_btn_switch_to_on_mtrl_00001.9.png" />
+    <Content Include="Assets\YouTube\abc_btn_switch_to_on_mtrl_00012.9.png" />
+    <Content Include="Assets\YouTube\abc_cab_background_top_mtrl_alpha.9.png" />
+    <Content Include="Assets\YouTube\abc_ic_ab_back_mtrl_am_alpha.png" />
+    <Content Include="Assets\YouTube\abc_ic_clear_mtrl_alpha.png" />
+    <Content Include="Assets\YouTube\abc_ic_commit_search_api_mtrl_alpha.png" />
+    <Content Include="Assets\YouTube\abc_ic_go_search_api_mtrl_alpha.png" />
+    <Content Include="Assets\YouTube\abc_ic_menu_copy_mtrl_am_alpha.png" />
+    <Content Include="Assets\YouTube\abc_ic_menu_cut_mtrl_alpha.png" />
+    <Content Include="Assets\YouTube\abc_ic_menu_moreoverflow_mtrl_alpha.png" />
+    <Content Include="Assets\YouTube\abc_ic_menu_paste_mtrl_am_alpha.png" />
+    <Content Include="Assets\YouTube\abc_ic_menu_selectall_mtrl_alpha.png" />
+    <Content Include="Assets\YouTube\abc_ic_menu_share_mtrl_alpha.png" />
+    <Content Include="Assets\YouTube\abc_ic_search_api_mtrl_alpha.png" />
+    <Content Include="Assets\YouTube\abc_ic_voice_search_api_mtrl_alpha.png" />
+    <Content Include="Assets\YouTube\abc_list_divider_mtrl_alpha.9.png" />
+    <Content Include="Assets\YouTube\abc_list_focused_holo.9.png" />
+    <Content Include="Assets\YouTube\abc_list_longpressed_holo.9.png" />
+    <Content Include="Assets\YouTube\abc_list_pressed_holo_dark.9.png" />
+    <Content Include="Assets\YouTube\abc_list_pressed_holo_light.9.png" />
+    <Content Include="Assets\YouTube\abc_list_selector_disabled_holo_dark.9.png" />
+    <Content Include="Assets\YouTube\abc_list_selector_disabled_holo_light.9.png" />
+    <Content Include="Assets\YouTube\abc_menu_hardkey_panel_mtrl_mult.9.png" />
+    <Content Include="Assets\YouTube\abc_popup_background_mtrl_mult.9.png" />
+    <Content Include="Assets\YouTube\abc_spinner_mtrl_am_alpha.9.png" />
+    <Content Include="Assets\YouTube\abc_switch_track_mtrl_alpha.9.png" />
+    <Content Include="Assets\YouTube\abc_tab_indicator_mtrl_alpha.9.png" />
+    <Content Include="Assets\YouTube\abc_textfield_activated_mtrl_alpha.9.png" />
+    <Content Include="Assets\YouTube\abc_textfield_default_mtrl_alpha.9.png" />
+    <Content Include="Assets\YouTube\abc_textfield_search_activated_mtrl_alpha.9.png" />
+    <Content Include="Assets\YouTube\abc_textfield_search_default_mtrl_alpha.9.png" />
+    <Content Include="Assets\YouTube\action_bar_logo_dogbone.png" />
+    <Content Include="Assets\YouTube\action_bar_logo_release.png" />
+    <Content Include="Assets\YouTube\ad_feed_call_to_action_arrow.png" />
+    <Content Include="Assets\YouTube\ad_skip.png" />
+    <Content Include="Assets\YouTube\alert_error.png" />
+    <Content Include="Assets\YouTube\alert_error_light.png" />
+    <Content Include="Assets\YouTube\amodo_only_disabled.png" />
+    <Content Include="Assets\YouTube\amodo_only_off.png" />
+    <Content Include="Assets\YouTube\amodo_only_on.png" />
+    <Content Include="Assets\YouTube\amodo_only_pressed.png" />
+    <Content Include="Assets\YouTube\api_btn_cc_off.png" />
+    <Content Include="Assets\YouTube\api_btn_cc_on.png" />
+    <Content Include="Assets\YouTube\api_btn_hd_off.png" />
+    <Content Include="Assets\YouTube\api_btn_hd_on.png" />
+    <Content Include="Assets\YouTube\api_btn_hq_off.png" />
+    <Content Include="Assets\YouTube\api_btn_hq_on.png" />
+    <Content Include="Assets\YouTube\api_btn_next.png" />
+    <Content Include="Assets\YouTube\api_btn_pause.png" />
+    <Content Include="Assets\YouTube\api_btn_play.png" />
+    <Content Include="Assets\YouTube\api_btn_prev.png" />
+    <Content Include="Assets\YouTube\api_btn_replay.png" />
+    <Content Include="Assets\YouTube\api_btn_unavailable.png" />
+    <Content Include="Assets\YouTube\api_ic_full_screen.png" />
+    <Content Include="Assets\YouTube\api_ic_full_screen_selected.png" />
+    <Content Include="Assets\YouTube\api_ic_live.9.png" />
+    <Content Include="Assets\YouTube\api_ic_options.png" />
+    <Content Include="Assets\YouTube\api_ic_options_selected.png" />
+    <Content Include="Assets\YouTube\api_ic_small_screen.png" />
+    <Content Include="Assets\YouTube\api_ic_small_screen_selected.png" />
+    <Content Include="Assets\YouTube\api_player_bar.9.png" />
+    <Content Include="Assets\YouTube\api_player_buffered.9.png" />
+    <Content Include="Assets\YouTube\api_player_menu_bar.9.png" />
+    <Content Include="Assets\YouTube\api_player_track.9.png" />
+    <Content Include="Assets\YouTube\api_play_on_you_tube.png" />
+    <Content Include="Assets\YouTube\api_scrubber.png" />
+    <Content Include="Assets\YouTube\api_scrubber_selected.png" />
+    <Content Include="Assets\YouTube\api_tv_control_back.png" />
+    <Content Include="Assets\YouTube\api_tv_control_back_select.png" />
+    <Content Include="Assets\YouTube\api_tv_control_btn_bg.png" />
+    <Content Include="Assets\YouTube\api_tv_control_btn_bg_select.png" />
+    <Content Include="Assets\YouTube\api_tv_control_cc.png" />
+    <Content Include="Assets\YouTube\api_tv_control_cc_on.png" />
+    <Content Include="Assets\YouTube\api_tv_control_cc_select.png" />
+    <Content Include="Assets\YouTube\api_tv_control_fastforward.png" />
+    <Content Include="Assets\YouTube\api_tv_control_fastforward_select.png" />
+    <Content Include="Assets\YouTube\api_tv_control_forward.png" />
+    <Content Include="Assets\YouTube\api_tv_control_forward_select.png" />
+    <Content Include="Assets\YouTube\api_tv_control_info.png" />
+    <Content Include="Assets\YouTube\api_tv_control_info_select.png" />
+    <Content Include="Assets\YouTube\api_tv_control_pause.png" />
+    <Content Include="Assets\YouTube\api_tv_control_pause_select.png" />
+    <Content Include="Assets\YouTube\api_tv_control_play.png" />
+    <Content Include="Assets\YouTube\api_tv_control_play_select.png" />
+    <Content Include="Assets\YouTube\api_tv_control_rewind.png" />
+    <Content Include="Assets\YouTube\api_tv_control_rewind_select.png" />
+    <Content Include="Assets\YouTube\api_tv_menu_home.png" />
+    <Content Include="Assets\YouTube\api_tv_panel_player.9.png" />
+    <Content Include="Assets\YouTube\api_tv_scrubber_background.9.png" />
+    <Content Include="Assets\YouTube\api_tv_scrubber_buffer.9.png" />
+    <Content Include="Assets\YouTube\api_tv_scrubber_knob.png" />
+    <Content Include="Assets\YouTube\api_tv_scrubber_progress.9.png" />
+    <Content Include="Assets\YouTube\arrows_collapse.png" />
+    <Content Include="Assets\YouTube\arrows_expand.png" />
+    <Content Include="Assets\YouTube\arrow_down.png" />
+    <Content Include="Assets\YouTube\arrow_segment.png" />
+    <Content Include="Assets\YouTube\arrow_up.png" />
+    <Content Include="Assets\YouTube\audio_swap_track_no_artwork.png" />
+    <Content Include="Assets\YouTube\bg_live_badge.9.png" />
+    <Content Include="Assets\YouTube\bg_number.png" />
+    <Content Include="Assets\YouTube\bg_vidcontrol_full_left.png" />
+    <Content Include="Assets\YouTube\bg_vidcontrol_full_left_large.png" />
+    <Content Include="Assets\YouTube\bg_vidcontrol_full_middle.png" />
+    <Content Include="Assets\YouTube\bg_vidcontrol_full_middle_large.png" />
+    <Content Include="Assets\YouTube\bg_vidcontrol_full_right.png" />
+    <Content Include="Assets\YouTube\bg_vidcontrol_full_right_large.png" />
+    <Content Include="Assets\YouTube\bg_vidcontrol_middle.png" />
+    <Content Include="Assets\YouTube\bg_vidcontrol_middle_focused.png" />
+    <Content Include="Assets\YouTube\bg_vidcontrol_middle_large.png" />
+    <Content Include="Assets\YouTube\bg_zero_state.png" />
+    <Content Include="Assets\YouTube\btn_cling_normal.9.png" />
+    <Content Include="Assets\YouTube\btn_cling_pressed.9.png" />
+    <Content Include="Assets\YouTube\btn_close_light.png" />
+    <Content Include="Assets\YouTube\btn_play_all.9.png" />
+    <Content Include="Assets\YouTube\btn_subscribe.9.png" />
+    <Content Include="Assets\YouTube\btn_subscribed.9.png" />
+    <Content Include="Assets\YouTube\btn_subscribe_music.9.png" />
+    <Content Include="Assets\YouTube\btn_subscribe_ypc.9.png" />
+    <Content Include="Assets\YouTube\btn_tipjar_minus.png" />
+    <Content Include="Assets\YouTube\btn_tipjar_plus.png" />
+    <Content Include="Assets\YouTube\btn_tip_support.9.png" />
+    <Content Include="Assets\YouTube\btn_vidcontrol_remote.9.png" />
+    <Content Include="Assets\YouTube\card_frame.9.png" />
+    <Content Include="Assets\YouTube\card_frame_bottom.9.png" />
+    <Content Include="Assets\YouTube\card_frame_bottom_selected.9.png" />
+    <Content Include="Assets\YouTube\card_frame_middle.9.png" />
+    <Content Include="Assets\YouTube\card_frame_middle_selected.9.png" />
+    <Content Include="Assets\YouTube\card_frame_selected.9.png" />
+    <Content Include="Assets\YouTube\card_frame_top.9.png" />
+    <Content Include="Assets\YouTube\card_frame_top_selected.9.png" />
+    <Content Include="Assets\YouTube\card_rez_border.png" />
+    <Content Include="Assets\YouTube\cast_connected.png" />
+    <Content Include="Assets\YouTube\cast_disconnected.png" />
+    <Content Include="Assets\YouTube\cast_icon_minimized_player.png" />
+    <Content Include="Assets\YouTube\cast_pressed.png" />
+    <Content Include="Assets\YouTube\channel_header_shadow.png" />
+    <Content Include="Assets\YouTube\cling_target.png" />
+    <Content Include="Assets\YouTube\cling_target_small.png" />
+    <Content Include="Assets\YouTube\common_full_open_on_phone.png" />
+    <Content Include="Assets\YouTube\common_ic_googleplayservices.png" />
+    <Content Include="Assets\YouTube\common_signin_btn_icon_disabled_dark.9.png" />
+    <Content Include="Assets\YouTube\common_signin_btn_icon_disabled_focus_dark.9.png" />
+    <Content Include="Assets\YouTube\common_signin_btn_icon_disabled_focus_light.9.png" />
+    <Content Include="Assets\YouTube\common_signin_btn_icon_disabled_light.9.png" />
+    <Content Include="Assets\YouTube\common_signin_btn_icon_focus_dark.9.png" />
+    <Content Include="Assets\YouTube\common_signin_btn_icon_focus_light.9.png" />
+    <Content Include="Assets\YouTube\common_signin_btn_icon_normal_dark.9.png" />
+    <Content Include="Assets\YouTube\common_signin_btn_icon_normal_light.9.png" />
+    <Content Include="Assets\YouTube\common_signin_btn_icon_pressed_dark.9.png" />
+    <Content Include="Assets\YouTube\common_signin_btn_icon_pressed_light.9.png" />
+    <Content Include="Assets\YouTube\common_signin_btn_text_disabled_dark.9.png" />
+    <Content Include="Assets\YouTube\common_signin_btn_text_disabled_focus_dark.9.png" />
+    <Content Include="Assets\YouTube\common_signin_btn_text_disabled_focus_light.9.png" />
+    <Content Include="Assets\YouTube\common_signin_btn_text_disabled_light.9.png" />
+    <Content Include="Assets\YouTube\common_signin_btn_text_focus_dark.9.png" />
+    <Content Include="Assets\YouTube\common_signin_btn_text_focus_light.9.png" />
+    <Content Include="Assets\YouTube\common_signin_btn_text_normal_dark.9.png" />
+    <Content Include="Assets\YouTube\common_signin_btn_text_normal_light.9.png" />
+    <Content Include="Assets\YouTube\common_signin_btn_text_pressed_dark.9.png" />
+    <Content Include="Assets\YouTube\common_signin_btn_text_pressed_light.9.png" />
+    <Content Include="Assets\YouTube\compat_selector_disabled.9.png" />
+    <Content Include="Assets\YouTube\compat_selector_focused.9.png" />
+    <Content Include="Assets\YouTube\compat_selector_longpressed.9.png" />
+    <Content Include="Assets\YouTube\compat_selector_pressed.9.png" />
+    <Content Include="Assets\YouTube\contextual_menu_anchor_normal.png" />
+    <Content Include="Assets\YouTube\contextual_menu_anchor_pressed.png" />
+    <Content Include="Assets\YouTube\conversation_menu_anchor_normal.png" />
+    <Content Include="Assets\YouTube\conversation_menu_anchor_pressed.png" />
+    <Content Include="Assets\YouTube\fwd_triangle.png" />
+    <Content Include="Assets\YouTube\ic_account_switcher_add_normal.png" />
+    <Content Include="Assets\YouTube\ic_account_switcher_add_pressed.png" />
+    <Content Include="Assets\YouTube\ic_account_switcher_caret_down.png" />
+    <Content Include="Assets\YouTube\ic_account_switcher_caret_up.png" />
+    <Content Include="Assets\YouTube\ic_account_switcher_sign_in.png" />
+    <Content Include="Assets\YouTube\ic_action_bar_drawer.png" />
+    <Content Include="Assets\YouTube\ic_action_clear_mtrl_alpha.png" />
+    <Content Include="Assets\YouTube\ic_action_settings.png" />
+    <Content Include="Assets\YouTube\ic_add_white_48dp.png" />
+    <Content Include="Assets\YouTube\ic_amodo.png" />
+    <Content Include="Assets\YouTube\ic_amodo_pressed.png" />
+    <Content Include="Assets\YouTube\ic_annotation_close.png" />
+    <Content Include="Assets\YouTube\ic_annotation_expand_right.png" />
+    <Content Include="Assets\YouTube\ic_annotation_external_link.png" />
+    <Content Include="Assets\YouTube\ic_arrow_back_black.png" />
+    <Content Include="Assets\YouTube\ic_audiomix_32dp.png" />
+    <Content Include="Assets\YouTube\ic_audiomix_button_32dp.png" />
+    <Content Include="Assets\YouTube\ic_audioswap_button_32dp.png" />
+    <Content Include="Assets\YouTube\ic_audioswap_button_selected_32dp.png" />
+    <Content Include="Assets\YouTube\ic_audiotrack_white_36dp.png" />
+    <Content Include="Assets\YouTube\ic_audio_add_24dp.png" />
+    <Content Include="Assets\YouTube\ic_audio_preview_play_48dp.png" />
+    <Content Include="Assets\YouTube\ic_audio_preview_stop_48dp.png" />
+    <Content Include="Assets\YouTube\ic_audio_track_selector.png" />
+    <Content Include="Assets\YouTube\ic_cancel.png" />
+    <Content Include="Assets\YouTube\ic_clear_entry.png" />
+    <Content Include="Assets\YouTube\ic_close.png" />
+    <Content Include="Assets\YouTube\ic_comment_active.png" />
+    <Content Include="Assets\YouTube\ic_comment_delete.png" />
+    <Content Include="Assets\YouTube\ic_comment_flag.png" />
+    <Content Include="Assets\YouTube\ic_comment_normal.png" />
+    <Content Include="Assets\YouTube\ic_comment_reply.png" />
+    <Content Include="Assets\YouTube\ic_communities_alt_grey_8.png" />
+    <Content Include="Assets\YouTube\ic_copy.png" />
+    <Content Include="Assets\YouTube\ic_default_channel_art.png" />
+    <Content Include="Assets\YouTube\ic_default_channel_placeholder_bg.png" />
+    <Content Include="Assets\YouTube\ic_delete_screen.png" />
+    <Content Include="Assets\YouTube\ic_dislike.png" />
+    <Content Include="Assets\YouTube\ic_dislike_focus.png" />
+    <Content Include="Assets\YouTube\ic_dismiss.png" />
+    <Content Include="Assets\YouTube\ic_domain_grey_8.png" />
+    <Content Include="Assets\YouTube\ic_drawer_browse_channels.png" />
+    <Content Include="Assets\YouTube\ic_drawer_collapse.png" />
+    <Content Include="Assets\YouTube\ic_drawer_expand.png" />
+    <Content Include="Assets\YouTube\ic_drawer_favorites.png" />
+    <Content Include="Assets\YouTube\ic_drawer_likes_playlist.png" />
+    <Content Include="Assets\YouTube\ic_drawer_mix.png" />
+    <Content Include="Assets\YouTube\ic_drawer_notifications_inbox.png" />
+    <Content Include="Assets\YouTube\ic_drawer_offline.png" />
+    <Content Include="Assets\YouTube\ic_drawer_playlists.png" />
+    <Content Include="Assets\YouTube\ic_drawer_purchases.png" />
+    <Content Include="Assets\YouTube\ic_drawer_signin.png" />
+    <Content Include="Assets\YouTube\ic_drawer_subscriptions.png" />
+    <Content Include="Assets\YouTube\ic_drawer_uploads.png" />
+    <Content Include="Assets\YouTube\ic_drawer_watch_history.png" />
+    <Content Include="Assets\YouTube\ic_drawer_watch_later.png" />
+    <Content Include="Assets\YouTube\ic_drawer_what_to_watch.png" />
+    <Content Include="Assets\YouTube\ic_edit_suggestion.png" />
+    <Content Include="Assets\YouTube\ic_exclamation.png" />
+    <Content Include="Assets\YouTube\ic_expand_dots.png" />
+    <Content Include="Assets\YouTube\ic_expand_down.png" />
+    <Content Include="Assets\YouTube\ic_expand_list.png" />
+    <Content Include="Assets\YouTube\ic_expand_list_on.png" />
+    <Content Include="Assets\YouTube\ic_expand_list_pressed.png" />
+    <Content Include="Assets\YouTube\ic_extended_circles_grey_8.png" />
+    <Content Include="Assets\YouTube\ic_fab_play.png" />
+    <Content Include="Assets\YouTube\ic_fab_play_selected.png" />
+    <Content Include="Assets\YouTube\ic_filter_button_32dp.png" />
+    <Content Include="Assets\YouTube\ic_filter_button_selected_32dp.png" />
+    <Content Include="Assets\YouTube\ic_google_play.jpg" />
+    <Content Include="Assets\YouTube\ic_group.png" />
+    <Content Include="Assets\YouTube\ic_guide_account_selector.png" />
+    <Content Include="Assets\YouTube\ic_join_conversation.png" />
+    <Content Include="Assets\YouTube\ic_keyboard.png" />
+    <Content Include="Assets\YouTube\ic_kk_badge_dialog_enabled.png" />
+    <Content Include="Assets\YouTube\ic_kk_badge_guide_disabled.png" />
+    <Content Include="Assets\YouTube\ic_kk_badge_guide_enabled.png" />
+    <Content Include="Assets\YouTube\ic_kk_badge_watch_disabled.png" />
+    <Content Include="Assets\YouTube\ic_kk_badge_watch_enabled.png" />
+    <Content Include="Assets\YouTube\ic_launcher.png" />
+    <Content Include="Assets\YouTube\ic_leave_conversation.png" />
+    <Content Include="Assets\YouTube\ic_like.png" />
+    <Content Include="Assets\YouTube\ic_like_focus.png" />
+    <Content Include="Assets\YouTube\ic_like_grey.png" />
+    <Content Include="Assets\YouTube\ic_like_red.png" />
+    <Content Include="Assets\YouTube\ic_list_add_new.png" />
+    <Content Include="Assets\YouTube\ic_list_favorite.png" />
+    <Content Include="Assets\YouTube\ic_list_offline.png" />
+    <Content Include="Assets\YouTube\ic_list_playlist.png" />
+    <Content Include="Assets\YouTube\ic_list_watch_later.png" />
+    <Content Include="Assets\YouTube\ic_locked_playlist.png" />
+    <Content Include="Assets\YouTube\ic_lock_closed_grey_8.png" />
+    <Content Include="Assets\YouTube\ic_logo_square.png" />
+    <Content Include="Assets\YouTube\ic_logo_youtube.png" />
+    <Content Include="Assets\YouTube\ic_mdx_modal_play.png" />
+    <Content Include="Assets\YouTube\ic_mdx_modal_queue.png" />
+    <Content Include="Assets\YouTube\ic_media_route_disabled_mtrl_alpha.png" />
+    <Content Include="Assets\YouTube\ic_media_route_off_mtrl_alpha.png" />
+    <Content Include="Assets\YouTube\ic_media_route_on_0_mtrl_alpha.png" />
+    <Content Include="Assets\YouTube\ic_media_route_on_1_mtrl_alpha.png" />
+    <Content Include="Assets\YouTube\ic_media_route_on_2_mtrl_alpha.png" />
+    <Content Include="Assets\YouTube\ic_media_route_on_mtrl_alpha.png" />
+    <Content Include="Assets\YouTube\ic_menu_filter.png" />
+    <Content Include="Assets\YouTube\ic_menu_filter_mtrl_alpha.png" />
+    <Content Include="Assets\YouTube\ic_menu_search.png" />
+    <Content Include="Assets\YouTube\ic_menu_search_mtrl_alpha.png" />
+    <Content Include="Assets\YouTube\ic_menu_upload.png" />
+    <Content Include="Assets\YouTube\ic_menu_upload_mtrl_alpha.png" />
+    <Content Include="Assets\YouTube\ic_menu_upload_send_mtrl_alpha.png" />
+    <Content Include="Assets\YouTube\ic_mix.png" />
+    <Content Include="Assets\YouTube\ic_more.png" />
+    <Content Include="Assets\YouTube\ic_music_key_badge_dialog_enabled.png" />
+    <Content Include="Assets\YouTube\ic_music_key_badge_guide_disabled.png" />
+    <Content Include="Assets\YouTube\ic_music_key_badge_guide_enabled.png" />
+    <Content Include="Assets\YouTube\ic_music_key_badge_watch_disabled.png" />
+    <Content Include="Assets\YouTube\ic_music_key_badge_watch_enabled.png" />
+    <Content Include="Assets\YouTube\ic_notifications_menu_next_video.png" />
+    <Content Include="Assets\YouTube\ic_notifications_menu_next_video_disabled.png" />
+    <Content Include="Assets\YouTube\ic_notifications_menu_pause.png" />
+    <Content Include="Assets\YouTube\ic_notifications_menu_play.png" />
+    <Content Include="Assets\YouTube\ic_notifications_menu_previous_video.png" />
+    <Content Include="Assets\YouTube\ic_notifications_menu_previous_video_disabled.png" />
+    <Content Include="Assets\YouTube\ic_notifications_menu_replay.png" />
+    <Content Include="Assets\YouTube\ic_notification_cast.png" />
+    <Content Include="Assets\YouTube\ic_notification_error.png" />
+    <Content Include="Assets\YouTube\ic_notification_error_small.png" />
+    <Content Include="Assets\YouTube\ic_notification_offline_complete.png" />
+    <Content Include="Assets\YouTube\ic_notification_offline_progress.png" />
+    <Content Include="Assets\YouTube\ic_notification_settings.png" />
+    <Content Include="Assets\YouTube\ic_offline_arrow.png" />
+    <Content Include="Assets\YouTube\ic_offline_check.png" />
+    <Content Include="Assets\YouTube\ic_offline_dialog_remove.png" />
+    <Content Include="Assets\YouTube\ic_offline_dialog_sync.png" />
+    <Content Include="Assets\YouTube\ic_offline_empty.png" />
+    <Content Include="Assets\YouTube\ic_offline_error.png" />
+    <Content Include="Assets\YouTube\ic_offline_paused.png" />
+    <Content Include="Assets\YouTube\ic_offline_progress_1.png" />
+    <Content Include="Assets\YouTube\ic_offline_progress_2.png" />
+    <Content Include="Assets\YouTube\ic_offline_progress_3.png" />
+    <Content Include="Assets\YouTube\ic_offline_progress_4.png" />
+    <Content Include="Assets\YouTube\ic_offline_progress_5.png" />
+    <Content Include="Assets\YouTube\ic_offline_progress_6.png" />
+    <Content Include="Assets\YouTube\ic_offline_progress_7.png" />
+    <Content Include="Assets\YouTube\ic_offline_progress_8.png" />
+    <Content Include="Assets\YouTube\ic_offline_resume.png" />
+    <Content Include="Assets\YouTube\ic_offline_retry.png" />
+    <Content Include="Assets\YouTube\ic_offline_sync.png" />
+    <Content Include="Assets\YouTube\ic_paypage_avatar.png" />
+    <Content Include="Assets\YouTube\ic_person.png" />
+    <Content Include="Assets\YouTube\ic_playlist.png" />
+    <Content Include="Assets\YouTube\ic_playlist_info.png" />
+    <Content Include="Assets\YouTube\ic_playlist_lock.png" />
+    <Content Include="Assets\YouTube\ic_playlist_save.png" />
+    <Content Include="Assets\YouTube\ic_playlist_saved.png" />
+    <Content Include="Assets\YouTube\ic_playlist_share.png" />
+    <Content Include="Assets\YouTube\ic_play_arrow_white_48dp.png" />
+    <Content Include="Assets\YouTube\ic_play_install.png" />
+    <Content Include="Assets\YouTube\ic_plusone_medium_off_client.png" />
+    <Content Include="Assets\YouTube\ic_plusone_small_off_client.png" />
+    <Content Include="Assets\YouTube\ic_plusone_standard_off_client.png" />
+    <Content Include="Assets\YouTube\ic_plusone_tall_off_client.png" />
+    <Content Include="Assets\YouTube\ic_preview_pause_btn.png" />
+    <Content Include="Assets\YouTube\ic_preview_playhead.png" />
+    <Content Include="Assets\YouTube\ic_preview_play_btn.png" />
+    <Content Include="Assets\YouTube\ic_remote_qrcode.png" />
+    <Content Include="Assets\YouTube\ic_remote_video_info_pause.png" />
+    <Content Include="Assets\YouTube\ic_remote_video_info_play.png" />
+    <Content Include="Assets\YouTube\ic_remote_youtubetv.png" />
+    <Content Include="Assets\YouTube\ic_rename_conversation.png" />
+    <Content Include="Assets\YouTube\ic_search_clear.png" />
+    <Content Include="Assets\YouTube\ic_send.png" />
+    <Content Include="Assets\YouTube\ic_send_active.png" />
+    <Content Include="Assets\YouTube\ic_send_disabled.png" />
+    <Content Include="Assets\YouTube\ic_setbar_collapse.png" />
+    <Content Include="Assets\YouTube\ic_setbar_expand.png" />
+    <Content Include="Assets\YouTube\ic_setbar_loop.png" />
+    <Content Include="Assets\YouTube\ic_setbar_loop_on.png" />
+    <Content Include="Assets\YouTube\ic_setbar_overflow.png" />
+    <Content Include="Assets\YouTube\ic_setbar_save.png" />
+    <Content Include="Assets\YouTube\ic_setbar_saved.png" />
+    <Content Include="Assets\YouTube\ic_setbar_share.png" />
+    <Content Include="Assets\YouTube\ic_setbar_shuffle.png" />
+    <Content Include="Assets\YouTube\ic_setbar_shuffle_on.png" />
+    <Content Include="Assets\YouTube\ic_set_currently_playing.png" />
+    <Content Include="Assets\YouTube\ic_set_mix.png" />
+    <Content Include="Assets\YouTube\ic_set_mix_expand.png" />
+    <Content Include="Assets\YouTube\ic_set_mix_pressed.png" />
+    <Content Include="Assets\YouTube\ic_share.png" />
+    <Content Include="Assets\YouTube\ic_show_more_carrot.png" />
+    <Content Include="Assets\YouTube\ic_stat_yt_notification_logo.png" />
+    <Content Include="Assets\YouTube\ic_stop_white_48dp.png" />
+    <Content Include="Assets\YouTube\ic_subscribe.png" />
+    <Content Include="Assets\YouTube\ic_subscribed.png" />
+    <Content Include="Assets\YouTube\ic_subscribe_dull.png" />
+    <Content Include="Assets\YouTube\ic_subscribe_ypc.png" />
+    <Content Include="Assets\YouTube\ic_support_infocard.png" />
+    <Content Include="Assets\YouTube\ic_tab_account.png" />
+    <Content Include="Assets\YouTube\ic_tab_home.png" />
+    <Content Include="Assets\YouTube\ic_tab_library.png" />
+    <Content Include="Assets\YouTube\ic_tab_subscriptions.png" />
+    <Content Include="Assets\YouTube\ic_tab_trending.png" />
+    <Content Include="Assets\YouTube\ic_thanks_check_bg.png" />
+    <Content Include="Assets\YouTube\ic_tick_32dp.png" />
+    <Content Include="Assets\YouTube\ic_tip_support.png" />
+    <Content Include="Assets\YouTube\ic_trim_handle.png" />
+    <Content Include="Assets\YouTube\ic_trim_handle_tutorial.png" />
+    <Content Include="Assets\YouTube\ic_unavailable.png" />
+    <Content Include="Assets\YouTube\ic_unsupported_file_format.png" />
+    <Content Include="Assets\YouTube\ic_upload_notification.png" />
+    <Content Include="Assets\YouTube\ic_vidaction_flag.png" />
+    <Content Include="Assets\YouTube\ic_vidaction_flag_pressed.png" />
+    <Content Include="Assets\YouTube\ic_vidcontrol_add_to.png" />
+    <Content Include="Assets\YouTube\ic_vidcontrol_add_to_pressed.png" />
+    <Content Include="Assets\YouTube\ic_vidcontrol_cc_disabled.png" />
+    <Content Include="Assets\YouTube\ic_vidcontrol_cc_off.png" />
+    <Content Include="Assets\YouTube\ic_vidcontrol_cc_on.png" />
+    <Content Include="Assets\YouTube\ic_vidcontrol_cc_pressed.png" />
+    <Content Include="Assets\YouTube\ic_vidcontrol_collapse.png" />
+    <Content Include="Assets\YouTube\ic_vidcontrol_collapse_pressed.png" />
+    <Content Include="Assets\YouTube\ic_vidcontrol_flag.png" />
+    <Content Include="Assets\YouTube\ic_vidcontrol_flag_pressed.png" />
+    <Content Include="Assets\YouTube\ic_vidcontrol_fullscreen_off.png" />
+    <Content Include="Assets\YouTube\ic_vidcontrol_fullscreen_off_pressed.png" />
+    <Content Include="Assets\YouTube\ic_vidcontrol_fullscreen_on.png" />
+    <Content Include="Assets\YouTube\ic_vidcontrol_fullscreen_on_pressed.png" />
+    <Content Include="Assets\YouTube\ic_vidcontrol_go_to_ad.png" />
+    <Content Include="Assets\YouTube\ic_vidcontrol_hide_controls.png" />
+    <Content Include="Assets\YouTube\ic_vidcontrol_hide_controls_pressed.png" />
+    <Content Include="Assets\YouTube\ic_vidcontrol_next.png" />
+    <Content Include="Assets\YouTube\ic_vidcontrol_next_disabled.png" />
+    <Content Include="Assets\YouTube\ic_vidcontrol_overflow.png" />
+    <Content Include="Assets\YouTube\ic_vidcontrol_overflow_pressed.png" />
+    <Content Include="Assets\YouTube\ic_vidcontrol_pause.png" />
+    <Content Include="Assets\YouTube\ic_vidcontrol_pause_play_00.png" />
+    <Content Include="Assets\YouTube\ic_vidcontrol_pause_play_01.png" />
+    <Content Include="Assets\YouTube\ic_vidcontrol_pause_play_02.png" />
+    <Content Include="Assets\YouTube\ic_vidcontrol_pause_play_03.png" />
+    <Content Include="Assets\YouTube\ic_vidcontrol_pause_play_04.png" />
+    <Content Include="Assets\YouTube\ic_vidcontrol_pause_play_05.png" />
+    <Content Include="Assets\YouTube\ic_vidcontrol_pause_play_06.png" />
+    <Content Include="Assets\YouTube\ic_vidcontrol_pause_play_07.png" />
+    <Content Include="Assets\YouTube\ic_vidcontrol_pause_play_08.png" />
+    <Content Include="Assets\YouTube\ic_vidcontrol_pause_play_09.png" />
+    <Content Include="Assets\YouTube\ic_vidcontrol_pause_play_10.png" />
+    <Content Include="Assets\YouTube\ic_vidcontrol_pause_play_11.png" />
+    <Content Include="Assets\YouTube\ic_vidcontrol_pause_pressed.png" />
+    <Content Include="Assets\YouTube\ic_vidcontrol_play.png" />
+    <Content Include="Assets\YouTube\ic_vidcontrol_play_pressed.png" />
+    <Content Include="Assets\YouTube\ic_vidcontrol_prev.png" />
+    <Content Include="Assets\YouTube\ic_vidcontrol_prev_disabled.png" />
+    <Content Include="Assets\YouTube\ic_vidcontrol_quality.png" />
+    <Content Include="Assets\YouTube\ic_vidcontrol_quality_disabled.png" />
+    <Content Include="Assets\YouTube\ic_vidcontrol_quality_pressed.png" />
+    <Content Include="Assets\YouTube\ic_vidcontrol_reload.png" />
+    <Content Include="Assets\YouTube\ic_vidcontrol_reload_pressed.png" />
+    <Content Include="Assets\YouTube\ic_vidcontrol_share.png" />
+    <Content Include="Assets\YouTube\ic_vidcontrol_share_pressed.png" />
+    <Content Include="Assets\YouTube\ic_vmoji.png" />
+    <Content Include="Assets\YouTube\ic_vmoji_blue.png" />
+    <Content Include="Assets\YouTube\ic_voice_search.png" />
+    <Content Include="Assets\YouTube\ic_yt_locked.png" />
+    <Content Include="Assets\YouTube\ic_yt_unlocked.png" />
+    <Content Include="Assets\YouTube\info_card_close_button.png" />
+    <Content Include="Assets\YouTube\info_card_icon.png" />
+    <Content Include="Assets\YouTube\info_card_link.png" />
+    <Content Include="Assets\YouTube\kk_post_purchase_flow_page_1.png" />
+    <Content Include="Assets\YouTube\kk_post_purchase_flow_page_2.png" />
+    <Content Include="Assets\YouTube\kk_post_purchase_flow_page_3.png" />
+    <Content Include="Assets\YouTube\kk_post_purchase_flow_page_4.png" />
+    <Content Include="Assets\YouTube\live_chat.png" />
+    <Content Include="Assets\YouTube\live_chat_icon.png" />
+    <Content Include="Assets\YouTube\live_send_dark.png" />
+    <Content Include="Assets\YouTube\miniplayer_innerglow.9.png" />
+    <Content Include="Assets\YouTube\miniplayer_shadow.9.png" />
+    <Content Include="Assets\YouTube\missing_avatar.png" />
+    <Content Include="Assets\YouTube\mr_ic_audio_vol.png" />
+    <Content Include="Assets\YouTube\mr_ic_media_route_disabled_holo_dark.png" />
+    <Content Include="Assets\YouTube\mr_ic_media_route_disabled_holo_light.png" />
+    <Content Include="Assets\YouTube\mr_ic_media_route_off_holo_dark.png" />
+    <Content Include="Assets\YouTube\mr_ic_media_route_off_holo_light.png" />
+    <Content Include="Assets\YouTube\mr_ic_media_route_on_0_holo_dark.png" />
+    <Content Include="Assets\YouTube\mr_ic_media_route_on_0_holo_light.png" />
+    <Content Include="Assets\YouTube\mr_ic_media_route_on_1_holo_dark.png" />
+    <Content Include="Assets\YouTube\mr_ic_media_route_on_1_holo_light.png" />
+    <Content Include="Assets\YouTube\mr_ic_media_route_on_2_holo_dark.png" />
+    <Content Include="Assets\YouTube\mr_ic_media_route_on_2_holo_light.png" />
+    <Content Include="Assets\YouTube\mr_ic_media_route_on_holo_dark.png" />
+    <Content Include="Assets\YouTube\mr_ic_media_route_on_holo_light.png" />
+    <Content Include="Assets\YouTube\play_all_button.png" />
+    <Content Include="Assets\YouTube\powered_by_google_dark.png" />
+    <Content Include="Assets\YouTube\powered_by_google_light.png" />
+    <Content Include="Assets\YouTube\pref_subtitles_none.png" />
+    <Content Include="Assets\YouTube\pref_subtitles_preview_background.jpg" />
+    <Content Include="Assets\YouTube\promo_empty_feed.png" />
+    <Content Include="Assets\YouTube\promo_pairing.png" />
+    <Content Include="Assets\YouTube\promo_pairing_successful.png" />
+    <Content Include="Assets\YouTube\quantum_ic_auto_fix_white_48.png" />
+    <Content Include="Assets\YouTube\q_account_switcher_background.jpg" />
+    <Content Include="Assets\YouTube\q_ic_account_switcher_caret_down.png" />
+    <Content Include="Assets\YouTube\q_ic_drawer_browse_channels_normal.png" />
+    <Content Include="Assets\YouTube\q_ic_drawer_browse_channels_pressed.png" />
+    <Content Include="Assets\YouTube\q_ic_drawer_collapse_normal.png" />
+    <Content Include="Assets\YouTube\q_ic_drawer_collapse_pressed.png" />
+    <Content Include="Assets\YouTube\q_ic_drawer_expand_normal.png" />
+    <Content Include="Assets\YouTube\q_ic_drawer_expand_pressed.png" />
+    <Content Include="Assets\YouTube\q_ic_drawer_favorites_normal.png" />
+    <Content Include="Assets\YouTube\q_ic_drawer_favorites_pressed.png" />
+    <Content Include="Assets\YouTube\q_ic_drawer_likes_playlist_normal.png" />
+    <Content Include="Assets\YouTube\q_ic_drawer_likes_playlist_pressed.png" />
+    <Content Include="Assets\YouTube\q_ic_drawer_mix_normal.png" />
+    <Content Include="Assets\YouTube\q_ic_drawer_mix_pressed.png" />
+    <Content Include="Assets\YouTube\q_ic_drawer_notifications_inbox_normal.png" />
+    <Content Include="Assets\YouTube\q_ic_drawer_notifications_inbox_pressed.png" />
+    <Content Include="Assets\YouTube\q_ic_drawer_offline_normal.png" />
+    <Content Include="Assets\YouTube\q_ic_drawer_offline_pressed.png" />
+    <Content Include="Assets\YouTube\q_ic_drawer_playlists_normal.png" />
+    <Content Include="Assets\YouTube\q_ic_drawer_playlists_pressed.png" />
+    <Content Include="Assets\YouTube\q_ic_drawer_purchases_normal.png" />
+    <Content Include="Assets\YouTube\q_ic_drawer_purchases_pressed.png" />
+    <Content Include="Assets\YouTube\q_ic_drawer_sign_in_normal.png" />
+    <Content Include="Assets\YouTube\q_ic_drawer_sign_in_pressed.png" />
+    <Content Include="Assets\YouTube\q_ic_drawer_subscriptions_normal.png" />
+    <Content Include="Assets\YouTube\q_ic_drawer_subscriptions_pressed.png" />
+    <Content Include="Assets\YouTube\q_ic_drawer_uploads_normal.png" />
+    <Content Include="Assets\YouTube\q_ic_drawer_uploads_pressed.png" />
+    <Content Include="Assets\YouTube\q_ic_drawer_watch_history_normal.png" />
+    <Content Include="Assets\YouTube\q_ic_drawer_watch_history_pressed.png" />
+    <Content Include="Assets\YouTube\q_ic_drawer_watch_later_normal.png" />
+    <Content Include="Assets\YouTube\q_ic_drawer_watch_later_pressed.png" />
+    <Content Include="Assets\YouTube\q_ic_drawer_what_to_watch_normal.png" />
+    <Content Include="Assets\YouTube\q_ic_drawer_what_to_watch_pressed.png" />
+    <Content Include="Assets\YouTube\q_ic_search_clear.png" />
+    <Content Include="Assets\YouTube\q_ic_suggestion_complete.png" />
+    <Content Include="Assets\YouTube\rwd_triangle.png" />
+    <Content Include="Assets\YouTube\scrubber_control_disabled.png" />
+    <Content Include="Assets\YouTube\scrubber_control_normal.png" />
+    <Content Include="Assets\YouTube\scrubber_control_pressed.png" />
+    <Content Include="Assets\YouTube\spinner.9.png" />
+    <Content Include="Assets\YouTube\spinner_normal.9.png" />
+    <Content Include="Assets\YouTube\spinner_pressed.9.png" />
+    <Content Include="Assets\YouTube\startup_promo_activity_mix.jpg" />
+    <Content Include="Assets\YouTube\startup_promo_activity_music_home.jpg" />
+    <Content Include="Assets\YouTube\startup_promo_activity_watch_card.jpg" />
+    <Content Include="Assets\YouTube\star_empty.png" />
+    <Content Include="Assets\YouTube\star_filled.png" />
+    <Content Include="Assets\YouTube\subscribed_mark.png" />
+    <Content Include="Assets\YouTube\subscribed_paid_mark.png" />
+    <Content Include="Assets\YouTube\subscribe_mark.png" />
+    <Content Include="Assets\YouTube\subscribe_paid_mark.png" />
+    <Content Include="Assets\YouTube\survey_checked.png" />
+    <Content Include="Assets\YouTube\survey_unchecked.png" />
+    <Content Include="Assets\YouTube\textfield_search_default_holo_light.9.png" />
+    <Content Include="Assets\YouTube\textfield_search_right_default_holo_light.9.png" />
+    <Content Include="Assets\YouTube\textfield_search_right_selected_holo_light.9.png" />
+    <Content Include="Assets\YouTube\textfield_search_selected_holo_light.9.png" />
+    <Content Include="Assets\YouTube\tv_control_play_select.png" />
+    <Content Include="Assets\YouTube\tv_indicator_back.png" />
+    <Content Include="Assets\YouTube\tv_indicator_bg.png" />
+    <Content Include="Assets\YouTube\tv_indicator_ffwd.png" />
+    <Content Include="Assets\YouTube\tv_indicator_next.png" />
+    <Content Include="Assets\YouTube\tv_indicator_pause.png" />
+    <Content Include="Assets\YouTube\tv_indicator_play.png" />
+    <Content Include="Assets\YouTube\tv_indicator_rwd.png" />
+    <Content Include="Assets\YouTube\video_frame.9.png" />
+    <Content Include="Assets\YouTube\video_gradient_overlay.png" />
+    <Content Include="Assets\YouTube\watch_minimized_tutorial_dismiss.png" />
+    <Content Include="Assets\YouTube\watch_minimized_tutorial_expand.png" />
+    <Content Include="Assets\YouTube\widget_teaser_loading.9.png" />
+    <Content Include="Assets\YouTube\yt_recommends_avatar.png" />
+    <None Include="Package.StoreAssociation.xml" />
+    <Content Include="Properties\Default.rd.xml" />
+    <Content Include="Assets\LockScreenLogo.scale-200.png" />
+    <Content Include="Assets\SplashScreen.scale-200.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="Controls\TabHeader.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\UnifiedBannerAds_90x728.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DownloadPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Layouts\RatingControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LoginPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="NoNetworkPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SettingsPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Themes\Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets\Icons\" />
+    <Folder Include="protobuf_WinRT\Web\" />
+    <Folder Include="ViewModelItem\" />
+  </ItemGroup>
+  <ItemGroup>
+    <SDKReference Include="Microsoft.Advertising.Xaml, Version=10.0">
+      <Name>Microsoft Advertising SDK for XAML</Name>
+    </SDKReference>
+    <SDKReference Include="Microsoft.VCLibs, Version=14.0">
+      <Name>Visual C++ 2015 Runtime for Universal Windows Platform Apps</Name>
+    </SDKReference>
+    <SDKReference Include="WindowsMobile, Version=10.0.16299.0">
+      <Name>Windows Mobile Extensions for the UWP</Name>
+    </SDKReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Jint">
+      <HintPath>..\Libraries\_Compiled\Jint.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AdDuplexWin10">
+      <Version>10.1.0.1</Version>
+    </PackageReference>
+    <PackageReference Include="Google.Apis.YouTube.v3">
+      <Version>1.12.0.481</Version>
+    </PackageReference>
+    <PackageReference Include="HockeySDK.UWP">
+      <Version>4.1.5</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Advertising.XAML">
+      <Version>10.1811.22001</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.ApplicationInsights">
+      <Version>2.1.0</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.ApplicationInsights.PersistenceChannel">
+      <Version>1.2.3</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.ApplicationInsights.WindowsApps">
+      <Version>1.1.1</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Net.Http">
+      <Version>2.2.29</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
+      <Version>5.2.2</Version>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json">
+      <Version>10.0.3</Version>
+    </PackageReference>
+    <PackageReference Include="SQLite.uwp">
+      <Version>3.27.2</Version>
+    </PackageReference>
+    <PackageReference Include="VungleSDK">
+      <Version>1.3.15</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Libraries\YouTube\YouTubeStreamAPI.csproj">
+      <Project>{1c8297e8-b841-42d2-9eca-fcaf73080536}</Project>
+      <Name>YouTubeStreamAPI</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
+    <VisualStudioVersion>14.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

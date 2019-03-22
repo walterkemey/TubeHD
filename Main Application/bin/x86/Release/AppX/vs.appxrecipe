@@ -1,0 +1,2628 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>WALTER-PC</Machine>
+    <WindowsUser>Walter Kemey</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>1aae6246-b488-43d6-8874-c7b6e3816e17</PackageIdentityName>
+    <PackageIdentityPublisher>CN=A6598904-CB05-44F2-BB65-59C30B775F2C</PackageIdentityPublisher>
+    <IntermediateOutputPath>D:\UWP\TubeMate\Main Application\obj\x86\Release\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>D:\UWP\TubeMate\Main Application\bin\x86\Release\AppX</LayoutDir>
+    <RegisteredManifestChecksum>4E25E5EFC57730C69A86E5A4D88698383AA07B2AF92C3C2FF5E5EF9BA4FE7A9D</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>63661wOnDeRaPpSpTd.Vidmate-YoutubeVideoDownloader_1.1.72.0_x86__wjh4qgrgs8574</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>63661wOnDeRaPpSpTd.Vidmate-YoutubeVideoDownloader_wjh4qgrgs8574!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>63661wOnDeRaPpSpTd.Vidmate-YoutubeVideoDownloader</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=A6598904-CB05-44F2-BB65-59C30B775F2C</RegisteredPackagePublisher>
+    <RegisteredVersion>1.1.72.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-03-21T10:38:02.806</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\AdDuplex.winmd">
+      <PackagePath>AdDuplex.winmd</PackagePath>
+      <Modified>2016-12-07T12:09:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\BadgeLogo.scale-100.png">
+      <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-03-20T15:42:01.371</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\BadgeLogo.scale-125.png">
+      <PackagePath>Assets\BadgeLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-03-20T15:42:01.423</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\BadgeLogo.scale-150.png">
+      <PackagePath>Assets\BadgeLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-03-20T15:42:01.453</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\BadgeLogo.scale-200.png">
+      <PackagePath>Assets\BadgeLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-03-20T15:42:01.488</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\BadgeLogo.scale-400.png">
+      <PackagePath>Assets\BadgeLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-03-20T15:42:01.543</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\image_star.png">
+      <PackagePath>Assets\image_star.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\sleepy_doge.jpg">
+      <PackagePath>Assets\sleepy_doge.jpg</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-03-20T15:38:39.285</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\SplashScreen.scale-125.png">
+      <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-03-20T15:38:39.350</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\SplashScreen.scale-150.png">
+      <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-03-20T15:38:39.504</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-03-20T15:38:39.635</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-03-20T15:38:40.102</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\sports.png">
+      <PackagePath>Assets\sports.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-03-20T15:38:37.755</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-125.png">
+      <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-03-20T15:38:37.795</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-150.png">
+      <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-03-20T15:38:37.825</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-03-20T15:38:37.868</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-03-20T15:38:37.958</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\Square310x310Logo.scale-100.png">
+      <PackagePath>Assets\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-03-20T15:38:38.278</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\Square310x310Logo.scale-125.png">
+      <PackagePath>Assets\Square310x310Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-03-20T15:38:38.330</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\Square310x310Logo.scale-150.png">
+      <PackagePath>Assets\Square310x310Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-03-20T15:38:38.398</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\Square310x310Logo.scale-200.png">
+      <PackagePath>Assets\Square310x310Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-03-20T15:38:38.490</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\Square310x310Logo.scale-400.png">
+      <PackagePath>Assets\Square310x310Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-03-20T15:38:38.832</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-03-20T15:38:39.102</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-03-20T15:38:39.233</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-03-20T15:38:39.140</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-03-20T15:38:39.159</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-03-20T15:38:38.851</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-125.png">
+      <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-03-20T15:38:38.870</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-150.png">
+      <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-03-20T15:38:38.890</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-03-20T15:38:38.912</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-400.png">
+      <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-03-20T15:38:38.948</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-03-20T15:38:38.971</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-03-20T15:38:38.990</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-03-20T15:38:39.121</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-03-20T15:38:39.083</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-03-20T15:38:39.009</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-03-20T15:38:39.027</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\Square71x71Logo.scale-100.png">
+      <PackagePath>Assets\Square71x71Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-03-20T15:38:37.231</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\Square71x71Logo.scale-125.png">
+      <PackagePath>Assets\Square71x71Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-03-20T15:38:37.308</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\Square71x71Logo.scale-150.png">
+      <PackagePath>Assets\Square71x71Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-03-20T15:38:37.392</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\Square71x71Logo.scale-200.png">
+      <PackagePath>Assets\Square71x71Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-03-20T15:38:37.497</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\Square71x71Logo.scale-400.png">
+      <PackagePath>Assets\Square71x71Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-03-20T15:38:37.671</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-03-20T15:38:40.209</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\StoreLogo.scale-125.png">
+      <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-03-20T15:38:40.309</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\StoreLogo.scale-150.png">
+      <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-03-20T15:38:40.374</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\StoreLogo.scale-200.png">
+      <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-03-20T15:38:40.418</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\StoreLogo.scale-400.png">
+      <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-03-20T15:38:40.479</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-03-20T15:38:37.982</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-125.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-03-20T15:38:38.010</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-150.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-03-20T15:38:38.049</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-03-20T15:38:38.102</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-03-20T15:38:38.239</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\abc_ab_share_pack_holo_dark.9.png">
+      <PackagePath>Assets\YouTube\abc_ab_share_pack_holo_dark.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\abc_ab_share_pack_holo_light.9.png">
+      <PackagePath>Assets\YouTube\abc_ab_share_pack_holo_light.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\abc_btn_check_to_on_mtrl_000.png">
+      <PackagePath>Assets\YouTube\abc_btn_check_to_on_mtrl_000.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\abc_btn_check_to_on_mtrl_015.png">
+      <PackagePath>Assets\YouTube\abc_btn_check_to_on_mtrl_015.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\abc_btn_radio_to_on_mtrl_000.png">
+      <PackagePath>Assets\YouTube\abc_btn_radio_to_on_mtrl_000.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\abc_btn_radio_to_on_mtrl_015.png">
+      <PackagePath>Assets\YouTube\abc_btn_radio_to_on_mtrl_015.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\abc_btn_switch_to_on_mtrl_00001.9.png">
+      <PackagePath>Assets\YouTube\abc_btn_switch_to_on_mtrl_00001.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\abc_btn_switch_to_on_mtrl_00012.9.png">
+      <PackagePath>Assets\YouTube\abc_btn_switch_to_on_mtrl_00012.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\abc_cab_background_top_mtrl_alpha.9.png">
+      <PackagePath>Assets\YouTube\abc_cab_background_top_mtrl_alpha.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\abc_ic_ab_back_mtrl_am_alpha.png">
+      <PackagePath>Assets\YouTube\abc_ic_ab_back_mtrl_am_alpha.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\abc_ic_clear_mtrl_alpha.png">
+      <PackagePath>Assets\YouTube\abc_ic_clear_mtrl_alpha.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\abc_ic_commit_search_api_mtrl_alpha.png">
+      <PackagePath>Assets\YouTube\abc_ic_commit_search_api_mtrl_alpha.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\abc_ic_go_search_api_mtrl_alpha.png">
+      <PackagePath>Assets\YouTube\abc_ic_go_search_api_mtrl_alpha.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\abc_ic_menu_copy_mtrl_am_alpha.png">
+      <PackagePath>Assets\YouTube\abc_ic_menu_copy_mtrl_am_alpha.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\abc_ic_menu_cut_mtrl_alpha.png">
+      <PackagePath>Assets\YouTube\abc_ic_menu_cut_mtrl_alpha.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\abc_ic_menu_moreoverflow_mtrl_alpha.png">
+      <PackagePath>Assets\YouTube\abc_ic_menu_moreoverflow_mtrl_alpha.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\abc_ic_menu_paste_mtrl_am_alpha.png">
+      <PackagePath>Assets\YouTube\abc_ic_menu_paste_mtrl_am_alpha.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\abc_ic_menu_selectall_mtrl_alpha.png">
+      <PackagePath>Assets\YouTube\abc_ic_menu_selectall_mtrl_alpha.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\abc_ic_menu_share_mtrl_alpha.png">
+      <PackagePath>Assets\YouTube\abc_ic_menu_share_mtrl_alpha.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\abc_ic_search_api_mtrl_alpha.png">
+      <PackagePath>Assets\YouTube\abc_ic_search_api_mtrl_alpha.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\abc_ic_voice_search_api_mtrl_alpha.png">
+      <PackagePath>Assets\YouTube\abc_ic_voice_search_api_mtrl_alpha.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\abc_list_divider_mtrl_alpha.9.png">
+      <PackagePath>Assets\YouTube\abc_list_divider_mtrl_alpha.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\abc_list_focused_holo.9.png">
+      <PackagePath>Assets\YouTube\abc_list_focused_holo.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\abc_list_longpressed_holo.9.png">
+      <PackagePath>Assets\YouTube\abc_list_longpressed_holo.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\abc_list_pressed_holo_dark.9.png">
+      <PackagePath>Assets\YouTube\abc_list_pressed_holo_dark.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\abc_list_pressed_holo_light.9.png">
+      <PackagePath>Assets\YouTube\abc_list_pressed_holo_light.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\abc_list_selector_disabled_holo_dark.9.png">
+      <PackagePath>Assets\YouTube\abc_list_selector_disabled_holo_dark.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\abc_list_selector_disabled_holo_light.9.png">
+      <PackagePath>Assets\YouTube\abc_list_selector_disabled_holo_light.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\abc_menu_hardkey_panel_mtrl_mult.9.png">
+      <PackagePath>Assets\YouTube\abc_menu_hardkey_panel_mtrl_mult.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\abc_popup_background_mtrl_mult.9.png">
+      <PackagePath>Assets\YouTube\abc_popup_background_mtrl_mult.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\abc_spinner_mtrl_am_alpha.9.png">
+      <PackagePath>Assets\YouTube\abc_spinner_mtrl_am_alpha.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\abc_switch_track_mtrl_alpha.9.png">
+      <PackagePath>Assets\YouTube\abc_switch_track_mtrl_alpha.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\abc_tab_indicator_mtrl_alpha.9.png">
+      <PackagePath>Assets\YouTube\abc_tab_indicator_mtrl_alpha.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\abc_textfield_activated_mtrl_alpha.9.png">
+      <PackagePath>Assets\YouTube\abc_textfield_activated_mtrl_alpha.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\abc_textfield_default_mtrl_alpha.9.png">
+      <PackagePath>Assets\YouTube\abc_textfield_default_mtrl_alpha.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\abc_textfield_search_activated_mtrl_alpha.9.png">
+      <PackagePath>Assets\YouTube\abc_textfield_search_activated_mtrl_alpha.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\abc_textfield_search_default_mtrl_alpha.9.png">
+      <PackagePath>Assets\YouTube\abc_textfield_search_default_mtrl_alpha.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\action_bar_logo_dogbone.png">
+      <PackagePath>Assets\YouTube\action_bar_logo_dogbone.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\action_bar_logo_release.png">
+      <PackagePath>Assets\YouTube\action_bar_logo_release.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ad_feed_call_to_action_arrow.png">
+      <PackagePath>Assets\YouTube\ad_feed_call_to_action_arrow.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ad_skip.png">
+      <PackagePath>Assets\YouTube\ad_skip.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\alert_error.png">
+      <PackagePath>Assets\YouTube\alert_error.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\alert_error_light.png">
+      <PackagePath>Assets\YouTube\alert_error_light.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\amodo_only_disabled.png">
+      <PackagePath>Assets\YouTube\amodo_only_disabled.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\amodo_only_off.png">
+      <PackagePath>Assets\YouTube\amodo_only_off.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\amodo_only_on.png">
+      <PackagePath>Assets\YouTube\amodo_only_on.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\amodo_only_pressed.png">
+      <PackagePath>Assets\YouTube\amodo_only_pressed.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\api_btn_cc_off.png">
+      <PackagePath>Assets\YouTube\api_btn_cc_off.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\api_btn_cc_on.png">
+      <PackagePath>Assets\YouTube\api_btn_cc_on.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\api_btn_hd_off.png">
+      <PackagePath>Assets\YouTube\api_btn_hd_off.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\api_btn_hd_on.png">
+      <PackagePath>Assets\YouTube\api_btn_hd_on.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\api_btn_hq_off.png">
+      <PackagePath>Assets\YouTube\api_btn_hq_off.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\api_btn_hq_on.png">
+      <PackagePath>Assets\YouTube\api_btn_hq_on.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\api_btn_next.png">
+      <PackagePath>Assets\YouTube\api_btn_next.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\api_btn_pause.png">
+      <PackagePath>Assets\YouTube\api_btn_pause.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\api_btn_play.png">
+      <PackagePath>Assets\YouTube\api_btn_play.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\api_btn_prev.png">
+      <PackagePath>Assets\YouTube\api_btn_prev.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\api_btn_replay.png">
+      <PackagePath>Assets\YouTube\api_btn_replay.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\api_btn_unavailable.png">
+      <PackagePath>Assets\YouTube\api_btn_unavailable.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\api_ic_full_screen.png">
+      <PackagePath>Assets\YouTube\api_ic_full_screen.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\api_ic_full_screen_selected.png">
+      <PackagePath>Assets\YouTube\api_ic_full_screen_selected.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\api_ic_live.9.png">
+      <PackagePath>Assets\YouTube\api_ic_live.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\api_ic_options.png">
+      <PackagePath>Assets\YouTube\api_ic_options.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\api_ic_options_selected.png">
+      <PackagePath>Assets\YouTube\api_ic_options_selected.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\api_ic_small_screen.png">
+      <PackagePath>Assets\YouTube\api_ic_small_screen.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\api_ic_small_screen_selected.png">
+      <PackagePath>Assets\YouTube\api_ic_small_screen_selected.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\api_player_bar.9.png">
+      <PackagePath>Assets\YouTube\api_player_bar.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\api_player_buffered.9.png">
+      <PackagePath>Assets\YouTube\api_player_buffered.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\api_player_menu_bar.9.png">
+      <PackagePath>Assets\YouTube\api_player_menu_bar.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\api_player_track.9.png">
+      <PackagePath>Assets\YouTube\api_player_track.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\api_play_on_you_tube.png">
+      <PackagePath>Assets\YouTube\api_play_on_you_tube.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\api_scrubber.png">
+      <PackagePath>Assets\YouTube\api_scrubber.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\api_scrubber_selected.png">
+      <PackagePath>Assets\YouTube\api_scrubber_selected.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\api_tv_control_back.png">
+      <PackagePath>Assets\YouTube\api_tv_control_back.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\api_tv_control_back_select.png">
+      <PackagePath>Assets\YouTube\api_tv_control_back_select.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\api_tv_control_btn_bg.png">
+      <PackagePath>Assets\YouTube\api_tv_control_btn_bg.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\api_tv_control_btn_bg_select.png">
+      <PackagePath>Assets\YouTube\api_tv_control_btn_bg_select.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\api_tv_control_cc.png">
+      <PackagePath>Assets\YouTube\api_tv_control_cc.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\api_tv_control_cc_on.png">
+      <PackagePath>Assets\YouTube\api_tv_control_cc_on.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\api_tv_control_cc_select.png">
+      <PackagePath>Assets\YouTube\api_tv_control_cc_select.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\api_tv_control_fastforward.png">
+      <PackagePath>Assets\YouTube\api_tv_control_fastforward.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\api_tv_control_fastforward_select.png">
+      <PackagePath>Assets\YouTube\api_tv_control_fastforward_select.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\api_tv_control_forward.png">
+      <PackagePath>Assets\YouTube\api_tv_control_forward.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\api_tv_control_forward_select.png">
+      <PackagePath>Assets\YouTube\api_tv_control_forward_select.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\api_tv_control_info.png">
+      <PackagePath>Assets\YouTube\api_tv_control_info.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\api_tv_control_info_select.png">
+      <PackagePath>Assets\YouTube\api_tv_control_info_select.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\api_tv_control_pause.png">
+      <PackagePath>Assets\YouTube\api_tv_control_pause.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\api_tv_control_pause_select.png">
+      <PackagePath>Assets\YouTube\api_tv_control_pause_select.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\api_tv_control_play.png">
+      <PackagePath>Assets\YouTube\api_tv_control_play.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\api_tv_control_play_select.png">
+      <PackagePath>Assets\YouTube\api_tv_control_play_select.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\api_tv_control_rewind.png">
+      <PackagePath>Assets\YouTube\api_tv_control_rewind.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\api_tv_control_rewind_select.png">
+      <PackagePath>Assets\YouTube\api_tv_control_rewind_select.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\api_tv_menu_home.png">
+      <PackagePath>Assets\YouTube\api_tv_menu_home.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\api_tv_panel_player.9.png">
+      <PackagePath>Assets\YouTube\api_tv_panel_player.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\api_tv_scrubber_background.9.png">
+      <PackagePath>Assets\YouTube\api_tv_scrubber_background.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\api_tv_scrubber_buffer.9.png">
+      <PackagePath>Assets\YouTube\api_tv_scrubber_buffer.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\api_tv_scrubber_knob.png">
+      <PackagePath>Assets\YouTube\api_tv_scrubber_knob.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\api_tv_scrubber_progress.9.png">
+      <PackagePath>Assets\YouTube\api_tv_scrubber_progress.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\arrows_collapse.png">
+      <PackagePath>Assets\YouTube\arrows_collapse.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\arrows_expand.png">
+      <PackagePath>Assets\YouTube\arrows_expand.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\arrow_down.png">
+      <PackagePath>Assets\YouTube\arrow_down.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\arrow_segment.png">
+      <PackagePath>Assets\YouTube\arrow_segment.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\arrow_up.png">
+      <PackagePath>Assets\YouTube\arrow_up.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\audio_swap_track_no_artwork.png">
+      <PackagePath>Assets\YouTube\audio_swap_track_no_artwork.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\bg_live_badge.9.png">
+      <PackagePath>Assets\YouTube\bg_live_badge.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\bg_number.png">
+      <PackagePath>Assets\YouTube\bg_number.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\bg_vidcontrol_full_left.png">
+      <PackagePath>Assets\YouTube\bg_vidcontrol_full_left.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\bg_vidcontrol_full_left_large.png">
+      <PackagePath>Assets\YouTube\bg_vidcontrol_full_left_large.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\bg_vidcontrol_full_middle.png">
+      <PackagePath>Assets\YouTube\bg_vidcontrol_full_middle.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\bg_vidcontrol_full_middle_large.png">
+      <PackagePath>Assets\YouTube\bg_vidcontrol_full_middle_large.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\bg_vidcontrol_full_right.png">
+      <PackagePath>Assets\YouTube\bg_vidcontrol_full_right.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\bg_vidcontrol_full_right_large.png">
+      <PackagePath>Assets\YouTube\bg_vidcontrol_full_right_large.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\bg_vidcontrol_middle.png">
+      <PackagePath>Assets\YouTube\bg_vidcontrol_middle.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\bg_vidcontrol_middle_focused.png">
+      <PackagePath>Assets\YouTube\bg_vidcontrol_middle_focused.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\bg_vidcontrol_middle_large.png">
+      <PackagePath>Assets\YouTube\bg_vidcontrol_middle_large.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\bg_zero_state.png">
+      <PackagePath>Assets\YouTube\bg_zero_state.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\btn_cling_normal.9.png">
+      <PackagePath>Assets\YouTube\btn_cling_normal.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\btn_cling_pressed.9.png">
+      <PackagePath>Assets\YouTube\btn_cling_pressed.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\btn_close_light.png">
+      <PackagePath>Assets\YouTube\btn_close_light.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\btn_play_all.9.png">
+      <PackagePath>Assets\YouTube\btn_play_all.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\btn_subscribe.9.png">
+      <PackagePath>Assets\YouTube\btn_subscribe.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\btn_subscribed.9.png">
+      <PackagePath>Assets\YouTube\btn_subscribed.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\btn_subscribe_music.9.png">
+      <PackagePath>Assets\YouTube\btn_subscribe_music.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\btn_subscribe_ypc.9.png">
+      <PackagePath>Assets\YouTube\btn_subscribe_ypc.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\btn_tipjar_minus.png">
+      <PackagePath>Assets\YouTube\btn_tipjar_minus.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\btn_tipjar_plus.png">
+      <PackagePath>Assets\YouTube\btn_tipjar_plus.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\btn_tip_support.9.png">
+      <PackagePath>Assets\YouTube\btn_tip_support.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\btn_vidcontrol_remote.9.png">
+      <PackagePath>Assets\YouTube\btn_vidcontrol_remote.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\card_frame.9.png">
+      <PackagePath>Assets\YouTube\card_frame.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\card_frame_bottom.9.png">
+      <PackagePath>Assets\YouTube\card_frame_bottom.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\card_frame_bottom_selected.9.png">
+      <PackagePath>Assets\YouTube\card_frame_bottom_selected.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\card_frame_middle.9.png">
+      <PackagePath>Assets\YouTube\card_frame_middle.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\card_frame_middle_selected.9.png">
+      <PackagePath>Assets\YouTube\card_frame_middle_selected.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\card_frame_selected.9.png">
+      <PackagePath>Assets\YouTube\card_frame_selected.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\card_frame_top.9.png">
+      <PackagePath>Assets\YouTube\card_frame_top.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\card_frame_top_selected.9.png">
+      <PackagePath>Assets\YouTube\card_frame_top_selected.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\card_rez_border.png">
+      <PackagePath>Assets\YouTube\card_rez_border.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\cast_connected.png">
+      <PackagePath>Assets\YouTube\cast_connected.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\cast_disconnected.png">
+      <PackagePath>Assets\YouTube\cast_disconnected.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\cast_icon_minimized_player.png">
+      <PackagePath>Assets\YouTube\cast_icon_minimized_player.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\cast_pressed.png">
+      <PackagePath>Assets\YouTube\cast_pressed.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\channel_header_shadow.png">
+      <PackagePath>Assets\YouTube\channel_header_shadow.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\cling_target.png">
+      <PackagePath>Assets\YouTube\cling_target.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\cling_target_small.png">
+      <PackagePath>Assets\YouTube\cling_target_small.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\common_full_open_on_phone.png">
+      <PackagePath>Assets\YouTube\common_full_open_on_phone.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\common_ic_googleplayservices.png">
+      <PackagePath>Assets\YouTube\common_ic_googleplayservices.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\common_signin_btn_icon_disabled_dark.9.png">
+      <PackagePath>Assets\YouTube\common_signin_btn_icon_disabled_dark.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\common_signin_btn_icon_disabled_focus_dark.9.png">
+      <PackagePath>Assets\YouTube\common_signin_btn_icon_disabled_focus_dark.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\common_signin_btn_icon_disabled_focus_light.9.png">
+      <PackagePath>Assets\YouTube\common_signin_btn_icon_disabled_focus_light.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\common_signin_btn_icon_disabled_light.9.png">
+      <PackagePath>Assets\YouTube\common_signin_btn_icon_disabled_light.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\common_signin_btn_icon_focus_dark.9.png">
+      <PackagePath>Assets\YouTube\common_signin_btn_icon_focus_dark.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\common_signin_btn_icon_focus_light.9.png">
+      <PackagePath>Assets\YouTube\common_signin_btn_icon_focus_light.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\common_signin_btn_icon_normal_dark.9.png">
+      <PackagePath>Assets\YouTube\common_signin_btn_icon_normal_dark.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\common_signin_btn_icon_normal_light.9.png">
+      <PackagePath>Assets\YouTube\common_signin_btn_icon_normal_light.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\common_signin_btn_icon_pressed_dark.9.png">
+      <PackagePath>Assets\YouTube\common_signin_btn_icon_pressed_dark.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\common_signin_btn_icon_pressed_light.9.png">
+      <PackagePath>Assets\YouTube\common_signin_btn_icon_pressed_light.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\common_signin_btn_text_disabled_dark.9.png">
+      <PackagePath>Assets\YouTube\common_signin_btn_text_disabled_dark.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\common_signin_btn_text_disabled_focus_dark.9.png">
+      <PackagePath>Assets\YouTube\common_signin_btn_text_disabled_focus_dark.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\common_signin_btn_text_disabled_focus_light.9.png">
+      <PackagePath>Assets\YouTube\common_signin_btn_text_disabled_focus_light.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\common_signin_btn_text_disabled_light.9.png">
+      <PackagePath>Assets\YouTube\common_signin_btn_text_disabled_light.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\common_signin_btn_text_focus_dark.9.png">
+      <PackagePath>Assets\YouTube\common_signin_btn_text_focus_dark.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\common_signin_btn_text_focus_light.9.png">
+      <PackagePath>Assets\YouTube\common_signin_btn_text_focus_light.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\common_signin_btn_text_normal_dark.9.png">
+      <PackagePath>Assets\YouTube\common_signin_btn_text_normal_dark.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\common_signin_btn_text_normal_light.9.png">
+      <PackagePath>Assets\YouTube\common_signin_btn_text_normal_light.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\common_signin_btn_text_pressed_dark.9.png">
+      <PackagePath>Assets\YouTube\common_signin_btn_text_pressed_dark.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\common_signin_btn_text_pressed_light.9.png">
+      <PackagePath>Assets\YouTube\common_signin_btn_text_pressed_light.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\compat_selector_disabled.9.png">
+      <PackagePath>Assets\YouTube\compat_selector_disabled.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\compat_selector_focused.9.png">
+      <PackagePath>Assets\YouTube\compat_selector_focused.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\compat_selector_longpressed.9.png">
+      <PackagePath>Assets\YouTube\compat_selector_longpressed.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\compat_selector_pressed.9.png">
+      <PackagePath>Assets\YouTube\compat_selector_pressed.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\contextual_menu_anchor_normal.png">
+      <PackagePath>Assets\YouTube\contextual_menu_anchor_normal.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\contextual_menu_anchor_pressed.png">
+      <PackagePath>Assets\YouTube\contextual_menu_anchor_pressed.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\conversation_menu_anchor_normal.png">
+      <PackagePath>Assets\YouTube\conversation_menu_anchor_normal.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\conversation_menu_anchor_pressed.png">
+      <PackagePath>Assets\YouTube\conversation_menu_anchor_pressed.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\fwd_triangle.png">
+      <PackagePath>Assets\YouTube\fwd_triangle.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_account_switcher_add_normal.png">
+      <PackagePath>Assets\YouTube\ic_account_switcher_add_normal.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_account_switcher_add_pressed.png">
+      <PackagePath>Assets\YouTube\ic_account_switcher_add_pressed.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_account_switcher_caret_down.png">
+      <PackagePath>Assets\YouTube\ic_account_switcher_caret_down.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_account_switcher_caret_up.png">
+      <PackagePath>Assets\YouTube\ic_account_switcher_caret_up.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_account_switcher_sign_in.png">
+      <PackagePath>Assets\YouTube\ic_account_switcher_sign_in.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_action_bar_drawer.png">
+      <PackagePath>Assets\YouTube\ic_action_bar_drawer.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_action_clear_mtrl_alpha.png">
+      <PackagePath>Assets\YouTube\ic_action_clear_mtrl_alpha.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_action_settings.png">
+      <PackagePath>Assets\YouTube\ic_action_settings.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_add_white_48dp.png">
+      <PackagePath>Assets\YouTube\ic_add_white_48dp.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_amodo.png">
+      <PackagePath>Assets\YouTube\ic_amodo.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_amodo_pressed.png">
+      <PackagePath>Assets\YouTube\ic_amodo_pressed.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_annotation_close.png">
+      <PackagePath>Assets\YouTube\ic_annotation_close.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_annotation_expand_right.png">
+      <PackagePath>Assets\YouTube\ic_annotation_expand_right.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_annotation_external_link.png">
+      <PackagePath>Assets\YouTube\ic_annotation_external_link.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_arrow_back_black.png">
+      <PackagePath>Assets\YouTube\ic_arrow_back_black.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_audiomix_32dp.png">
+      <PackagePath>Assets\YouTube\ic_audiomix_32dp.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_audiomix_button_32dp.png">
+      <PackagePath>Assets\YouTube\ic_audiomix_button_32dp.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_audioswap_button_32dp.png">
+      <PackagePath>Assets\YouTube\ic_audioswap_button_32dp.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_audioswap_button_selected_32dp.png">
+      <PackagePath>Assets\YouTube\ic_audioswap_button_selected_32dp.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_audiotrack_white_36dp.png">
+      <PackagePath>Assets\YouTube\ic_audiotrack_white_36dp.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_audio_add_24dp.png">
+      <PackagePath>Assets\YouTube\ic_audio_add_24dp.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_audio_preview_play_48dp.png">
+      <PackagePath>Assets\YouTube\ic_audio_preview_play_48dp.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_audio_preview_stop_48dp.png">
+      <PackagePath>Assets\YouTube\ic_audio_preview_stop_48dp.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_audio_track_selector.png">
+      <PackagePath>Assets\YouTube\ic_audio_track_selector.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_cancel.png">
+      <PackagePath>Assets\YouTube\ic_cancel.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_clear_entry.png">
+      <PackagePath>Assets\YouTube\ic_clear_entry.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_close.png">
+      <PackagePath>Assets\YouTube\ic_close.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_comment_active.png">
+      <PackagePath>Assets\YouTube\ic_comment_active.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_comment_delete.png">
+      <PackagePath>Assets\YouTube\ic_comment_delete.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_comment_flag.png">
+      <PackagePath>Assets\YouTube\ic_comment_flag.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_comment_normal.png">
+      <PackagePath>Assets\YouTube\ic_comment_normal.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_comment_reply.png">
+      <PackagePath>Assets\YouTube\ic_comment_reply.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_communities_alt_grey_8.png">
+      <PackagePath>Assets\YouTube\ic_communities_alt_grey_8.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_copy.png">
+      <PackagePath>Assets\YouTube\ic_copy.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_default_channel_art.png">
+      <PackagePath>Assets\YouTube\ic_default_channel_art.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_default_channel_placeholder_bg.png">
+      <PackagePath>Assets\YouTube\ic_default_channel_placeholder_bg.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_delete_screen.png">
+      <PackagePath>Assets\YouTube\ic_delete_screen.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_dislike.png">
+      <PackagePath>Assets\YouTube\ic_dislike.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_dislike_focus.png">
+      <PackagePath>Assets\YouTube\ic_dislike_focus.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_dismiss.png">
+      <PackagePath>Assets\YouTube\ic_dismiss.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_domain_grey_8.png">
+      <PackagePath>Assets\YouTube\ic_domain_grey_8.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_drawer_browse_channels.png">
+      <PackagePath>Assets\YouTube\ic_drawer_browse_channels.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_drawer_collapse.png">
+      <PackagePath>Assets\YouTube\ic_drawer_collapse.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_drawer_expand.png">
+      <PackagePath>Assets\YouTube\ic_drawer_expand.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_drawer_favorites.png">
+      <PackagePath>Assets\YouTube\ic_drawer_favorites.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_drawer_likes_playlist.png">
+      <PackagePath>Assets\YouTube\ic_drawer_likes_playlist.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_drawer_mix.png">
+      <PackagePath>Assets\YouTube\ic_drawer_mix.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_drawer_notifications_inbox.png">
+      <PackagePath>Assets\YouTube\ic_drawer_notifications_inbox.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_drawer_offline.png">
+      <PackagePath>Assets\YouTube\ic_drawer_offline.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_drawer_playlists.png">
+      <PackagePath>Assets\YouTube\ic_drawer_playlists.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_drawer_purchases.png">
+      <PackagePath>Assets\YouTube\ic_drawer_purchases.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_drawer_signin.png">
+      <PackagePath>Assets\YouTube\ic_drawer_signin.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_drawer_subscriptions.png">
+      <PackagePath>Assets\YouTube\ic_drawer_subscriptions.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_drawer_uploads.png">
+      <PackagePath>Assets\YouTube\ic_drawer_uploads.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_drawer_watch_history.png">
+      <PackagePath>Assets\YouTube\ic_drawer_watch_history.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_drawer_watch_later.png">
+      <PackagePath>Assets\YouTube\ic_drawer_watch_later.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_drawer_what_to_watch.png">
+      <PackagePath>Assets\YouTube\ic_drawer_what_to_watch.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_edit_suggestion.png">
+      <PackagePath>Assets\YouTube\ic_edit_suggestion.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_exclamation.png">
+      <PackagePath>Assets\YouTube\ic_exclamation.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_expand_dots.png">
+      <PackagePath>Assets\YouTube\ic_expand_dots.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_expand_down.png">
+      <PackagePath>Assets\YouTube\ic_expand_down.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_expand_list.png">
+      <PackagePath>Assets\YouTube\ic_expand_list.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_expand_list_on.png">
+      <PackagePath>Assets\YouTube\ic_expand_list_on.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_expand_list_pressed.png">
+      <PackagePath>Assets\YouTube\ic_expand_list_pressed.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_extended_circles_grey_8.png">
+      <PackagePath>Assets\YouTube\ic_extended_circles_grey_8.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_fab_play.png">
+      <PackagePath>Assets\YouTube\ic_fab_play.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_fab_play_selected.png">
+      <PackagePath>Assets\YouTube\ic_fab_play_selected.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_filter_button_32dp.png">
+      <PackagePath>Assets\YouTube\ic_filter_button_32dp.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_filter_button_selected_32dp.png">
+      <PackagePath>Assets\YouTube\ic_filter_button_selected_32dp.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_google_play.jpg">
+      <PackagePath>Assets\YouTube\ic_google_play.jpg</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_group.png">
+      <PackagePath>Assets\YouTube\ic_group.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_guide_account_selector.png">
+      <PackagePath>Assets\YouTube\ic_guide_account_selector.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_join_conversation.png">
+      <PackagePath>Assets\YouTube\ic_join_conversation.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_keyboard.png">
+      <PackagePath>Assets\YouTube\ic_keyboard.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_kk_badge_dialog_enabled.png">
+      <PackagePath>Assets\YouTube\ic_kk_badge_dialog_enabled.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_kk_badge_guide_disabled.png">
+      <PackagePath>Assets\YouTube\ic_kk_badge_guide_disabled.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_kk_badge_guide_enabled.png">
+      <PackagePath>Assets\YouTube\ic_kk_badge_guide_enabled.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_kk_badge_watch_disabled.png">
+      <PackagePath>Assets\YouTube\ic_kk_badge_watch_disabled.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_kk_badge_watch_enabled.png">
+      <PackagePath>Assets\YouTube\ic_kk_badge_watch_enabled.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_launcher.png">
+      <PackagePath>Assets\YouTube\ic_launcher.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_leave_conversation.png">
+      <PackagePath>Assets\YouTube\ic_leave_conversation.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_like.png">
+      <PackagePath>Assets\YouTube\ic_like.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_like_focus.png">
+      <PackagePath>Assets\YouTube\ic_like_focus.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_like_grey.png">
+      <PackagePath>Assets\YouTube\ic_like_grey.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_like_red.png">
+      <PackagePath>Assets\YouTube\ic_like_red.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_list_add_new.png">
+      <PackagePath>Assets\YouTube\ic_list_add_new.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_list_favorite.png">
+      <PackagePath>Assets\YouTube\ic_list_favorite.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_list_offline.png">
+      <PackagePath>Assets\YouTube\ic_list_offline.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_list_playlist.png">
+      <PackagePath>Assets\YouTube\ic_list_playlist.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_list_watch_later.png">
+      <PackagePath>Assets\YouTube\ic_list_watch_later.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_locked_playlist.png">
+      <PackagePath>Assets\YouTube\ic_locked_playlist.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_lock_closed_grey_8.png">
+      <PackagePath>Assets\YouTube\ic_lock_closed_grey_8.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_logo_square.png">
+      <PackagePath>Assets\YouTube\ic_logo_square.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_logo_youtube.png">
+      <PackagePath>Assets\YouTube\ic_logo_youtube.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_mdx_modal_play.png">
+      <PackagePath>Assets\YouTube\ic_mdx_modal_play.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_mdx_modal_queue.png">
+      <PackagePath>Assets\YouTube\ic_mdx_modal_queue.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_media_route_disabled_mtrl_alpha.png">
+      <PackagePath>Assets\YouTube\ic_media_route_disabled_mtrl_alpha.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_media_route_off_mtrl_alpha.png">
+      <PackagePath>Assets\YouTube\ic_media_route_off_mtrl_alpha.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_media_route_on_0_mtrl_alpha.png">
+      <PackagePath>Assets\YouTube\ic_media_route_on_0_mtrl_alpha.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_media_route_on_1_mtrl_alpha.png">
+      <PackagePath>Assets\YouTube\ic_media_route_on_1_mtrl_alpha.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_media_route_on_2_mtrl_alpha.png">
+      <PackagePath>Assets\YouTube\ic_media_route_on_2_mtrl_alpha.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_media_route_on_mtrl_alpha.png">
+      <PackagePath>Assets\YouTube\ic_media_route_on_mtrl_alpha.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_menu_filter.png">
+      <PackagePath>Assets\YouTube\ic_menu_filter.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_menu_filter_mtrl_alpha.png">
+      <PackagePath>Assets\YouTube\ic_menu_filter_mtrl_alpha.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_menu_search.png">
+      <PackagePath>Assets\YouTube\ic_menu_search.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_menu_search_mtrl_alpha.png">
+      <PackagePath>Assets\YouTube\ic_menu_search_mtrl_alpha.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_menu_upload.png">
+      <PackagePath>Assets\YouTube\ic_menu_upload.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_menu_upload_mtrl_alpha.png">
+      <PackagePath>Assets\YouTube\ic_menu_upload_mtrl_alpha.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_menu_upload_send_mtrl_alpha.png">
+      <PackagePath>Assets\YouTube\ic_menu_upload_send_mtrl_alpha.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_mix.png">
+      <PackagePath>Assets\YouTube\ic_mix.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_more.png">
+      <PackagePath>Assets\YouTube\ic_more.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_music_key_badge_dialog_enabled.png">
+      <PackagePath>Assets\YouTube\ic_music_key_badge_dialog_enabled.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_music_key_badge_guide_disabled.png">
+      <PackagePath>Assets\YouTube\ic_music_key_badge_guide_disabled.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_music_key_badge_guide_enabled.png">
+      <PackagePath>Assets\YouTube\ic_music_key_badge_guide_enabled.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_music_key_badge_watch_disabled.png">
+      <PackagePath>Assets\YouTube\ic_music_key_badge_watch_disabled.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_music_key_badge_watch_enabled.png">
+      <PackagePath>Assets\YouTube\ic_music_key_badge_watch_enabled.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_notifications_menu_next_video.png">
+      <PackagePath>Assets\YouTube\ic_notifications_menu_next_video.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_notifications_menu_next_video_disabled.png">
+      <PackagePath>Assets\YouTube\ic_notifications_menu_next_video_disabled.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_notifications_menu_pause.png">
+      <PackagePath>Assets\YouTube\ic_notifications_menu_pause.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_notifications_menu_play.png">
+      <PackagePath>Assets\YouTube\ic_notifications_menu_play.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_notifications_menu_previous_video.png">
+      <PackagePath>Assets\YouTube\ic_notifications_menu_previous_video.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_notifications_menu_previous_video_disabled.png">
+      <PackagePath>Assets\YouTube\ic_notifications_menu_previous_video_disabled.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_notifications_menu_replay.png">
+      <PackagePath>Assets\YouTube\ic_notifications_menu_replay.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_notification_cast.png">
+      <PackagePath>Assets\YouTube\ic_notification_cast.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_notification_error.png">
+      <PackagePath>Assets\YouTube\ic_notification_error.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_notification_error_small.png">
+      <PackagePath>Assets\YouTube\ic_notification_error_small.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_notification_offline_complete.png">
+      <PackagePath>Assets\YouTube\ic_notification_offline_complete.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_notification_offline_progress.png">
+      <PackagePath>Assets\YouTube\ic_notification_offline_progress.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_notification_settings.png">
+      <PackagePath>Assets\YouTube\ic_notification_settings.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_offline_arrow.png">
+      <PackagePath>Assets\YouTube\ic_offline_arrow.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_offline_check.png">
+      <PackagePath>Assets\YouTube\ic_offline_check.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_offline_dialog_remove.png">
+      <PackagePath>Assets\YouTube\ic_offline_dialog_remove.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_offline_dialog_sync.png">
+      <PackagePath>Assets\YouTube\ic_offline_dialog_sync.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_offline_empty.png">
+      <PackagePath>Assets\YouTube\ic_offline_empty.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_offline_error.png">
+      <PackagePath>Assets\YouTube\ic_offline_error.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_offline_paused.png">
+      <PackagePath>Assets\YouTube\ic_offline_paused.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_offline_progress_1.png">
+      <PackagePath>Assets\YouTube\ic_offline_progress_1.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_offline_progress_2.png">
+      <PackagePath>Assets\YouTube\ic_offline_progress_2.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_offline_progress_3.png">
+      <PackagePath>Assets\YouTube\ic_offline_progress_3.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_offline_progress_4.png">
+      <PackagePath>Assets\YouTube\ic_offline_progress_4.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_offline_progress_5.png">
+      <PackagePath>Assets\YouTube\ic_offline_progress_5.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_offline_progress_6.png">
+      <PackagePath>Assets\YouTube\ic_offline_progress_6.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_offline_progress_7.png">
+      <PackagePath>Assets\YouTube\ic_offline_progress_7.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_offline_progress_8.png">
+      <PackagePath>Assets\YouTube\ic_offline_progress_8.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_offline_resume.png">
+      <PackagePath>Assets\YouTube\ic_offline_resume.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_offline_retry.png">
+      <PackagePath>Assets\YouTube\ic_offline_retry.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_offline_sync.png">
+      <PackagePath>Assets\YouTube\ic_offline_sync.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_paypage_avatar.png">
+      <PackagePath>Assets\YouTube\ic_paypage_avatar.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_person.png">
+      <PackagePath>Assets\YouTube\ic_person.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_playlist.png">
+      <PackagePath>Assets\YouTube\ic_playlist.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_playlist_info.png">
+      <PackagePath>Assets\YouTube\ic_playlist_info.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_playlist_lock.png">
+      <PackagePath>Assets\YouTube\ic_playlist_lock.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_playlist_save.png">
+      <PackagePath>Assets\YouTube\ic_playlist_save.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_playlist_saved.png">
+      <PackagePath>Assets\YouTube\ic_playlist_saved.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_playlist_share.png">
+      <PackagePath>Assets\YouTube\ic_playlist_share.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_play_arrow_white_48dp.png">
+      <PackagePath>Assets\YouTube\ic_play_arrow_white_48dp.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_play_install.png">
+      <PackagePath>Assets\YouTube\ic_play_install.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_plusone_medium_off_client.png">
+      <PackagePath>Assets\YouTube\ic_plusone_medium_off_client.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_plusone_small_off_client.png">
+      <PackagePath>Assets\YouTube\ic_plusone_small_off_client.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_plusone_standard_off_client.png">
+      <PackagePath>Assets\YouTube\ic_plusone_standard_off_client.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_plusone_tall_off_client.png">
+      <PackagePath>Assets\YouTube\ic_plusone_tall_off_client.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_preview_pause_btn.png">
+      <PackagePath>Assets\YouTube\ic_preview_pause_btn.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_preview_playhead.png">
+      <PackagePath>Assets\YouTube\ic_preview_playhead.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_preview_play_btn.png">
+      <PackagePath>Assets\YouTube\ic_preview_play_btn.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_remote_qrcode.png">
+      <PackagePath>Assets\YouTube\ic_remote_qrcode.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_remote_video_info_pause.png">
+      <PackagePath>Assets\YouTube\ic_remote_video_info_pause.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_remote_video_info_play.png">
+      <PackagePath>Assets\YouTube\ic_remote_video_info_play.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_remote_youtubetv.png">
+      <PackagePath>Assets\YouTube\ic_remote_youtubetv.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_rename_conversation.png">
+      <PackagePath>Assets\YouTube\ic_rename_conversation.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_search_clear.png">
+      <PackagePath>Assets\YouTube\ic_search_clear.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_send.png">
+      <PackagePath>Assets\YouTube\ic_send.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_send_active.png">
+      <PackagePath>Assets\YouTube\ic_send_active.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_send_disabled.png">
+      <PackagePath>Assets\YouTube\ic_send_disabled.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_setbar_collapse.png">
+      <PackagePath>Assets\YouTube\ic_setbar_collapse.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_setbar_expand.png">
+      <PackagePath>Assets\YouTube\ic_setbar_expand.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_setbar_loop.png">
+      <PackagePath>Assets\YouTube\ic_setbar_loop.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_setbar_loop_on.png">
+      <PackagePath>Assets\YouTube\ic_setbar_loop_on.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_setbar_overflow.png">
+      <PackagePath>Assets\YouTube\ic_setbar_overflow.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_setbar_save.png">
+      <PackagePath>Assets\YouTube\ic_setbar_save.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_setbar_saved.png">
+      <PackagePath>Assets\YouTube\ic_setbar_saved.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_setbar_share.png">
+      <PackagePath>Assets\YouTube\ic_setbar_share.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_setbar_shuffle.png">
+      <PackagePath>Assets\YouTube\ic_setbar_shuffle.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_setbar_shuffle_on.png">
+      <PackagePath>Assets\YouTube\ic_setbar_shuffle_on.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_set_currently_playing.png">
+      <PackagePath>Assets\YouTube\ic_set_currently_playing.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_set_mix.png">
+      <PackagePath>Assets\YouTube\ic_set_mix.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_set_mix_expand.png">
+      <PackagePath>Assets\YouTube\ic_set_mix_expand.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_set_mix_pressed.png">
+      <PackagePath>Assets\YouTube\ic_set_mix_pressed.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_share.png">
+      <PackagePath>Assets\YouTube\ic_share.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_show_more_carrot.png">
+      <PackagePath>Assets\YouTube\ic_show_more_carrot.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_stat_yt_notification_logo.png">
+      <PackagePath>Assets\YouTube\ic_stat_yt_notification_logo.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_stop_white_48dp.png">
+      <PackagePath>Assets\YouTube\ic_stop_white_48dp.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_subscribe.png">
+      <PackagePath>Assets\YouTube\ic_subscribe.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_subscribed.png">
+      <PackagePath>Assets\YouTube\ic_subscribed.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_subscribe_dull.png">
+      <PackagePath>Assets\YouTube\ic_subscribe_dull.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_subscribe_ypc.png">
+      <PackagePath>Assets\YouTube\ic_subscribe_ypc.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_support_infocard.png">
+      <PackagePath>Assets\YouTube\ic_support_infocard.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_tab_account.png">
+      <PackagePath>Assets\YouTube\ic_tab_account.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_tab_home.png">
+      <PackagePath>Assets\YouTube\ic_tab_home.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_tab_library.png">
+      <PackagePath>Assets\YouTube\ic_tab_library.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_tab_subscriptions.png">
+      <PackagePath>Assets\YouTube\ic_tab_subscriptions.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_tab_trending.png">
+      <PackagePath>Assets\YouTube\ic_tab_trending.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_thanks_check_bg.png">
+      <PackagePath>Assets\YouTube\ic_thanks_check_bg.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_tick_32dp.png">
+      <PackagePath>Assets\YouTube\ic_tick_32dp.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_tip_support.png">
+      <PackagePath>Assets\YouTube\ic_tip_support.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_trim_handle.png">
+      <PackagePath>Assets\YouTube\ic_trim_handle.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_trim_handle_tutorial.png">
+      <PackagePath>Assets\YouTube\ic_trim_handle_tutorial.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_unavailable.png">
+      <PackagePath>Assets\YouTube\ic_unavailable.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_unsupported_file_format.png">
+      <PackagePath>Assets\YouTube\ic_unsupported_file_format.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_upload_notification.png">
+      <PackagePath>Assets\YouTube\ic_upload_notification.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_vidaction_flag.png">
+      <PackagePath>Assets\YouTube\ic_vidaction_flag.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_vidaction_flag_pressed.png">
+      <PackagePath>Assets\YouTube\ic_vidaction_flag_pressed.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_vidcontrol_add_to.png">
+      <PackagePath>Assets\YouTube\ic_vidcontrol_add_to.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_vidcontrol_add_to_pressed.png">
+      <PackagePath>Assets\YouTube\ic_vidcontrol_add_to_pressed.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_vidcontrol_cc_disabled.png">
+      <PackagePath>Assets\YouTube\ic_vidcontrol_cc_disabled.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_vidcontrol_cc_off.png">
+      <PackagePath>Assets\YouTube\ic_vidcontrol_cc_off.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_vidcontrol_cc_on.png">
+      <PackagePath>Assets\YouTube\ic_vidcontrol_cc_on.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_vidcontrol_cc_pressed.png">
+      <PackagePath>Assets\YouTube\ic_vidcontrol_cc_pressed.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_vidcontrol_collapse.png">
+      <PackagePath>Assets\YouTube\ic_vidcontrol_collapse.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_vidcontrol_collapse_pressed.png">
+      <PackagePath>Assets\YouTube\ic_vidcontrol_collapse_pressed.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_vidcontrol_flag.png">
+      <PackagePath>Assets\YouTube\ic_vidcontrol_flag.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_vidcontrol_flag_pressed.png">
+      <PackagePath>Assets\YouTube\ic_vidcontrol_flag_pressed.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_vidcontrol_fullscreen_off.png">
+      <PackagePath>Assets\YouTube\ic_vidcontrol_fullscreen_off.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_vidcontrol_fullscreen_off_pressed.png">
+      <PackagePath>Assets\YouTube\ic_vidcontrol_fullscreen_off_pressed.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_vidcontrol_fullscreen_on.png">
+      <PackagePath>Assets\YouTube\ic_vidcontrol_fullscreen_on.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_vidcontrol_fullscreen_on_pressed.png">
+      <PackagePath>Assets\YouTube\ic_vidcontrol_fullscreen_on_pressed.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_vidcontrol_go_to_ad.png">
+      <PackagePath>Assets\YouTube\ic_vidcontrol_go_to_ad.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_vidcontrol_hide_controls.png">
+      <PackagePath>Assets\YouTube\ic_vidcontrol_hide_controls.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_vidcontrol_hide_controls_pressed.png">
+      <PackagePath>Assets\YouTube\ic_vidcontrol_hide_controls_pressed.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_vidcontrol_next.png">
+      <PackagePath>Assets\YouTube\ic_vidcontrol_next.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_vidcontrol_next_disabled.png">
+      <PackagePath>Assets\YouTube\ic_vidcontrol_next_disabled.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_vidcontrol_overflow.png">
+      <PackagePath>Assets\YouTube\ic_vidcontrol_overflow.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_vidcontrol_overflow_pressed.png">
+      <PackagePath>Assets\YouTube\ic_vidcontrol_overflow_pressed.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_vidcontrol_pause.png">
+      <PackagePath>Assets\YouTube\ic_vidcontrol_pause.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_vidcontrol_pause_play_00.png">
+      <PackagePath>Assets\YouTube\ic_vidcontrol_pause_play_00.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_vidcontrol_pause_play_01.png">
+      <PackagePath>Assets\YouTube\ic_vidcontrol_pause_play_01.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_vidcontrol_pause_play_02.png">
+      <PackagePath>Assets\YouTube\ic_vidcontrol_pause_play_02.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_vidcontrol_pause_play_03.png">
+      <PackagePath>Assets\YouTube\ic_vidcontrol_pause_play_03.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_vidcontrol_pause_play_04.png">
+      <PackagePath>Assets\YouTube\ic_vidcontrol_pause_play_04.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_vidcontrol_pause_play_05.png">
+      <PackagePath>Assets\YouTube\ic_vidcontrol_pause_play_05.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_vidcontrol_pause_play_06.png">
+      <PackagePath>Assets\YouTube\ic_vidcontrol_pause_play_06.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_vidcontrol_pause_play_07.png">
+      <PackagePath>Assets\YouTube\ic_vidcontrol_pause_play_07.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_vidcontrol_pause_play_08.png">
+      <PackagePath>Assets\YouTube\ic_vidcontrol_pause_play_08.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_vidcontrol_pause_play_09.png">
+      <PackagePath>Assets\YouTube\ic_vidcontrol_pause_play_09.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_vidcontrol_pause_play_10.png">
+      <PackagePath>Assets\YouTube\ic_vidcontrol_pause_play_10.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_vidcontrol_pause_play_11.png">
+      <PackagePath>Assets\YouTube\ic_vidcontrol_pause_play_11.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_vidcontrol_pause_pressed.png">
+      <PackagePath>Assets\YouTube\ic_vidcontrol_pause_pressed.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_vidcontrol_play.png">
+      <PackagePath>Assets\YouTube\ic_vidcontrol_play.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_vidcontrol_play_pressed.png">
+      <PackagePath>Assets\YouTube\ic_vidcontrol_play_pressed.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_vidcontrol_prev.png">
+      <PackagePath>Assets\YouTube\ic_vidcontrol_prev.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_vidcontrol_prev_disabled.png">
+      <PackagePath>Assets\YouTube\ic_vidcontrol_prev_disabled.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_vidcontrol_quality.png">
+      <PackagePath>Assets\YouTube\ic_vidcontrol_quality.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_vidcontrol_quality_disabled.png">
+      <PackagePath>Assets\YouTube\ic_vidcontrol_quality_disabled.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_vidcontrol_quality_pressed.png">
+      <PackagePath>Assets\YouTube\ic_vidcontrol_quality_pressed.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_vidcontrol_reload.png">
+      <PackagePath>Assets\YouTube\ic_vidcontrol_reload.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_vidcontrol_reload_pressed.png">
+      <PackagePath>Assets\YouTube\ic_vidcontrol_reload_pressed.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_vidcontrol_share.png">
+      <PackagePath>Assets\YouTube\ic_vidcontrol_share.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_vidcontrol_share_pressed.png">
+      <PackagePath>Assets\YouTube\ic_vidcontrol_share_pressed.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_vmoji.png">
+      <PackagePath>Assets\YouTube\ic_vmoji.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_vmoji_blue.png">
+      <PackagePath>Assets\YouTube\ic_vmoji_blue.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_voice_search.png">
+      <PackagePath>Assets\YouTube\ic_voice_search.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_yt_locked.png">
+      <PackagePath>Assets\YouTube\ic_yt_locked.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\ic_yt_unlocked.png">
+      <PackagePath>Assets\YouTube\ic_yt_unlocked.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\info_card_close_button.png">
+      <PackagePath>Assets\YouTube\info_card_close_button.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\info_card_icon.png">
+      <PackagePath>Assets\YouTube\info_card_icon.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\info_card_link.png">
+      <PackagePath>Assets\YouTube\info_card_link.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\kk_post_purchase_flow_page_1.png">
+      <PackagePath>Assets\YouTube\kk_post_purchase_flow_page_1.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\kk_post_purchase_flow_page_2.png">
+      <PackagePath>Assets\YouTube\kk_post_purchase_flow_page_2.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\kk_post_purchase_flow_page_3.png">
+      <PackagePath>Assets\YouTube\kk_post_purchase_flow_page_3.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\kk_post_purchase_flow_page_4.png">
+      <PackagePath>Assets\YouTube\kk_post_purchase_flow_page_4.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\live_chat.png">
+      <PackagePath>Assets\YouTube\live_chat.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\live_chat_icon.png">
+      <PackagePath>Assets\YouTube\live_chat_icon.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\live_send_dark.png">
+      <PackagePath>Assets\YouTube\live_send_dark.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\miniplayer_innerglow.9.png">
+      <PackagePath>Assets\YouTube\miniplayer_innerglow.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\miniplayer_shadow.9.png">
+      <PackagePath>Assets\YouTube\miniplayer_shadow.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\missing_avatar.png">
+      <PackagePath>Assets\YouTube\missing_avatar.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\mr_ic_audio_vol.png">
+      <PackagePath>Assets\YouTube\mr_ic_audio_vol.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\mr_ic_media_route_disabled_holo_dark.png">
+      <PackagePath>Assets\YouTube\mr_ic_media_route_disabled_holo_dark.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\mr_ic_media_route_disabled_holo_light.png">
+      <PackagePath>Assets\YouTube\mr_ic_media_route_disabled_holo_light.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\mr_ic_media_route_off_holo_dark.png">
+      <PackagePath>Assets\YouTube\mr_ic_media_route_off_holo_dark.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\mr_ic_media_route_off_holo_light.png">
+      <PackagePath>Assets\YouTube\mr_ic_media_route_off_holo_light.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\mr_ic_media_route_on_0_holo_dark.png">
+      <PackagePath>Assets\YouTube\mr_ic_media_route_on_0_holo_dark.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\mr_ic_media_route_on_0_holo_light.png">
+      <PackagePath>Assets\YouTube\mr_ic_media_route_on_0_holo_light.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\mr_ic_media_route_on_1_holo_dark.png">
+      <PackagePath>Assets\YouTube\mr_ic_media_route_on_1_holo_dark.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\mr_ic_media_route_on_1_holo_light.png">
+      <PackagePath>Assets\YouTube\mr_ic_media_route_on_1_holo_light.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\mr_ic_media_route_on_2_holo_dark.png">
+      <PackagePath>Assets\YouTube\mr_ic_media_route_on_2_holo_dark.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\mr_ic_media_route_on_2_holo_light.png">
+      <PackagePath>Assets\YouTube\mr_ic_media_route_on_2_holo_light.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\mr_ic_media_route_on_holo_dark.png">
+      <PackagePath>Assets\YouTube\mr_ic_media_route_on_holo_dark.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\mr_ic_media_route_on_holo_light.png">
+      <PackagePath>Assets\YouTube\mr_ic_media_route_on_holo_light.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\play_all_button.png">
+      <PackagePath>Assets\YouTube\play_all_button.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\powered_by_google_dark.png">
+      <PackagePath>Assets\YouTube\powered_by_google_dark.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\powered_by_google_light.png">
+      <PackagePath>Assets\YouTube\powered_by_google_light.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\pref_subtitles_none.png">
+      <PackagePath>Assets\YouTube\pref_subtitles_none.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\pref_subtitles_preview_background.jpg">
+      <PackagePath>Assets\YouTube\pref_subtitles_preview_background.jpg</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\promo_empty_feed.png">
+      <PackagePath>Assets\YouTube\promo_empty_feed.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\promo_pairing.png">
+      <PackagePath>Assets\YouTube\promo_pairing.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\promo_pairing_successful.png">
+      <PackagePath>Assets\YouTube\promo_pairing_successful.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\quantum_ic_auto_fix_white_48.png">
+      <PackagePath>Assets\YouTube\quantum_ic_auto_fix_white_48.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\q_account_switcher_background.jpg">
+      <PackagePath>Assets\YouTube\q_account_switcher_background.jpg</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\q_ic_account_switcher_caret_down.png">
+      <PackagePath>Assets\YouTube\q_ic_account_switcher_caret_down.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\q_ic_drawer_browse_channels_normal.png">
+      <PackagePath>Assets\YouTube\q_ic_drawer_browse_channels_normal.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\q_ic_drawer_browse_channels_pressed.png">
+      <PackagePath>Assets\YouTube\q_ic_drawer_browse_channels_pressed.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\q_ic_drawer_collapse_normal.png">
+      <PackagePath>Assets\YouTube\q_ic_drawer_collapse_normal.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\q_ic_drawer_collapse_pressed.png">
+      <PackagePath>Assets\YouTube\q_ic_drawer_collapse_pressed.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\q_ic_drawer_expand_normal.png">
+      <PackagePath>Assets\YouTube\q_ic_drawer_expand_normal.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\q_ic_drawer_expand_pressed.png">
+      <PackagePath>Assets\YouTube\q_ic_drawer_expand_pressed.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\q_ic_drawer_favorites_normal.png">
+      <PackagePath>Assets\YouTube\q_ic_drawer_favorites_normal.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\q_ic_drawer_favorites_pressed.png">
+      <PackagePath>Assets\YouTube\q_ic_drawer_favorites_pressed.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\q_ic_drawer_likes_playlist_normal.png">
+      <PackagePath>Assets\YouTube\q_ic_drawer_likes_playlist_normal.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\q_ic_drawer_likes_playlist_pressed.png">
+      <PackagePath>Assets\YouTube\q_ic_drawer_likes_playlist_pressed.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\q_ic_drawer_mix_normal.png">
+      <PackagePath>Assets\YouTube\q_ic_drawer_mix_normal.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\q_ic_drawer_mix_pressed.png">
+      <PackagePath>Assets\YouTube\q_ic_drawer_mix_pressed.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\q_ic_drawer_notifications_inbox_normal.png">
+      <PackagePath>Assets\YouTube\q_ic_drawer_notifications_inbox_normal.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\q_ic_drawer_notifications_inbox_pressed.png">
+      <PackagePath>Assets\YouTube\q_ic_drawer_notifications_inbox_pressed.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\q_ic_drawer_offline_normal.png">
+      <PackagePath>Assets\YouTube\q_ic_drawer_offline_normal.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\q_ic_drawer_offline_pressed.png">
+      <PackagePath>Assets\YouTube\q_ic_drawer_offline_pressed.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\q_ic_drawer_playlists_normal.png">
+      <PackagePath>Assets\YouTube\q_ic_drawer_playlists_normal.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\q_ic_drawer_playlists_pressed.png">
+      <PackagePath>Assets\YouTube\q_ic_drawer_playlists_pressed.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\q_ic_drawer_purchases_normal.png">
+      <PackagePath>Assets\YouTube\q_ic_drawer_purchases_normal.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\q_ic_drawer_purchases_pressed.png">
+      <PackagePath>Assets\YouTube\q_ic_drawer_purchases_pressed.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\q_ic_drawer_sign_in_normal.png">
+      <PackagePath>Assets\YouTube\q_ic_drawer_sign_in_normal.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\q_ic_drawer_sign_in_pressed.png">
+      <PackagePath>Assets\YouTube\q_ic_drawer_sign_in_pressed.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\q_ic_drawer_subscriptions_normal.png">
+      <PackagePath>Assets\YouTube\q_ic_drawer_subscriptions_normal.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\q_ic_drawer_subscriptions_pressed.png">
+      <PackagePath>Assets\YouTube\q_ic_drawer_subscriptions_pressed.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\q_ic_drawer_uploads_normal.png">
+      <PackagePath>Assets\YouTube\q_ic_drawer_uploads_normal.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\q_ic_drawer_uploads_pressed.png">
+      <PackagePath>Assets\YouTube\q_ic_drawer_uploads_pressed.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\q_ic_drawer_watch_history_normal.png">
+      <PackagePath>Assets\YouTube\q_ic_drawer_watch_history_normal.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\q_ic_drawer_watch_history_pressed.png">
+      <PackagePath>Assets\YouTube\q_ic_drawer_watch_history_pressed.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\q_ic_drawer_watch_later_normal.png">
+      <PackagePath>Assets\YouTube\q_ic_drawer_watch_later_normal.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\q_ic_drawer_watch_later_pressed.png">
+      <PackagePath>Assets\YouTube\q_ic_drawer_watch_later_pressed.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\q_ic_drawer_what_to_watch_normal.png">
+      <PackagePath>Assets\YouTube\q_ic_drawer_what_to_watch_normal.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\q_ic_drawer_what_to_watch_pressed.png">
+      <PackagePath>Assets\YouTube\q_ic_drawer_what_to_watch_pressed.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\q_ic_search_clear.png">
+      <PackagePath>Assets\YouTube\q_ic_search_clear.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\q_ic_suggestion_complete.png">
+      <PackagePath>Assets\YouTube\q_ic_suggestion_complete.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\rwd_triangle.png">
+      <PackagePath>Assets\YouTube\rwd_triangle.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\scrubber_control_disabled.png">
+      <PackagePath>Assets\YouTube\scrubber_control_disabled.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\scrubber_control_normal.png">
+      <PackagePath>Assets\YouTube\scrubber_control_normal.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\scrubber_control_pressed.png">
+      <PackagePath>Assets\YouTube\scrubber_control_pressed.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\spinner.9.png">
+      <PackagePath>Assets\YouTube\spinner.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\spinner_normal.9.png">
+      <PackagePath>Assets\YouTube\spinner_normal.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\spinner_pressed.9.png">
+      <PackagePath>Assets\YouTube\spinner_pressed.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\startup_promo_activity_mix.jpg">
+      <PackagePath>Assets\YouTube\startup_promo_activity_mix.jpg</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\startup_promo_activity_music_home.jpg">
+      <PackagePath>Assets\YouTube\startup_promo_activity_music_home.jpg</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\startup_promo_activity_watch_card.jpg">
+      <PackagePath>Assets\YouTube\startup_promo_activity_watch_card.jpg</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\star_empty.png">
+      <PackagePath>Assets\YouTube\star_empty.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\star_filled.png">
+      <PackagePath>Assets\YouTube\star_filled.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\subscribed_mark.png">
+      <PackagePath>Assets\YouTube\subscribed_mark.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\subscribed_paid_mark.png">
+      <PackagePath>Assets\YouTube\subscribed_paid_mark.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\subscribe_mark.png">
+      <PackagePath>Assets\YouTube\subscribe_mark.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\subscribe_paid_mark.png">
+      <PackagePath>Assets\YouTube\subscribe_paid_mark.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\survey_checked.png">
+      <PackagePath>Assets\YouTube\survey_checked.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\survey_unchecked.png">
+      <PackagePath>Assets\YouTube\survey_unchecked.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\textfield_search_default_holo_light.9.png">
+      <PackagePath>Assets\YouTube\textfield_search_default_holo_light.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\textfield_search_right_default_holo_light.9.png">
+      <PackagePath>Assets\YouTube\textfield_search_right_default_holo_light.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\textfield_search_right_selected_holo_light.9.png">
+      <PackagePath>Assets\YouTube\textfield_search_right_selected_holo_light.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\textfield_search_selected_holo_light.9.png">
+      <PackagePath>Assets\YouTube\textfield_search_selected_holo_light.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\tv_control_play_select.png">
+      <PackagePath>Assets\YouTube\tv_control_play_select.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\tv_indicator_back.png">
+      <PackagePath>Assets\YouTube\tv_indicator_back.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\tv_indicator_bg.png">
+      <PackagePath>Assets\YouTube\tv_indicator_bg.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\tv_indicator_ffwd.png">
+      <PackagePath>Assets\YouTube\tv_indicator_ffwd.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\tv_indicator_next.png">
+      <PackagePath>Assets\YouTube\tv_indicator_next.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\tv_indicator_pause.png">
+      <PackagePath>Assets\YouTube\tv_indicator_pause.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\tv_indicator_play.png">
+      <PackagePath>Assets\YouTube\tv_indicator_play.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\tv_indicator_rwd.png">
+      <PackagePath>Assets\YouTube\tv_indicator_rwd.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\video_frame.9.png">
+      <PackagePath>Assets\YouTube\video_frame.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\video_gradient_overlay.png">
+      <PackagePath>Assets\YouTube\video_gradient_overlay.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\watch_minimized_tutorial_dismiss.png">
+      <PackagePath>Assets\YouTube\watch_minimized_tutorial_dismiss.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\watch_minimized_tutorial_expand.png">
+      <PackagePath>Assets\YouTube\watch_minimized_tutorial_expand.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\widget_teaser_loading.9.png">
+      <PackagePath>Assets\YouTube\widget_teaser_loading.9.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Assets\YouTube\yt_recommends_avatar.png">
+      <PackagePath>Assets\YouTube\yt_recommends_avatar.png</PackagePath>
+      <Modified>2017-09-08T14:54:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\clrcompression.dll">
+      <PackagePath>clrcompression.dll</PackagePath>
+      <Modified>2016-06-13T17:51:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2019-03-21T10:35:41.718</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\sqlite3.dll">
+      <PackagePath>sqlite3.dll</PackagePath>
+      <Modified>2019-02-26T06:55:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\VungleSDK.winmd">
+      <PackagePath>VungleSDK.winmd</PackagePath>
+      <Modified>2016-09-07T15:46:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Youtube Music Video Downloader [W10].dll">
+      <PackagePath>Youtube Music Video Downloader [W10].dll</PackagePath>
+      <Modified>2019-03-21T10:37:59.694</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Youtube Music Video Downloader [W10].exe">
+      <PackagePath>Youtube Music Video Downloader [W10].exe</PackagePath>
+      <Modified>2019-03-21T10:38:02.490</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\TubeMate\Main Application\bin\x86\Release\ilc\Youtube Music Video Downloader [W10].pdb">
+      <PackagePath>Youtube Music Video Downloader [W10].pdb</PackagePath>
+      <Modified>2019-03-21T10:38:02.017</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\Walter Kemey\.nuget\packages\microsoft.advertising.xaml\10.1811.22001\SDK\Windows Kits\10\ExtensionSDKs\Microsoft.Advertising.Xaml\10.0\">
+      <Name>Microsoft.Advertising.Xaml</Name>
+      <Version>10.1811.1.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name=Microsoft.Advertising.Xaml, MinVersion=10.1811.1.0, Publisher=%27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Walter Kemey\.nuget\packages\microsoft.advertising.xaml\10.1811.22001\SDK\Windows Kits\10\ExtensionSDKs\Microsoft.Advertising.Xaml\10.0\.\AppX\ARM\Microsoft.Advertising.Xaml.ARM.10.0.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkID=619694</MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Walter Kemey\.nuget\packages\microsoft.advertising.xaml\10.1811.22001\SDK\Windows Kits\10\ExtensionSDKs\Microsoft.Advertising.Xaml\10.0\">
+      <Name>Microsoft.Advertising.Xaml</Name>
+      <Version>10.1811.1.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name=Microsoft.Advertising.Xaml, MinVersion=10.1811.1.0, Publisher=%27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Walter Kemey\.nuget\packages\microsoft.advertising.xaml\10.1811.22001\SDK\Windows Kits\10\ExtensionSDKs\Microsoft.Advertising.Xaml\10.0\.\AppX\x64\Microsoft.Advertising.Xaml.x64.10.0.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkID=619694</MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Walter Kemey\.nuget\packages\microsoft.advertising.xaml\10.1811.22001\SDK\Windows Kits\10\ExtensionSDKs\Microsoft.Advertising.Xaml\10.0\">
+      <Name>Microsoft.Advertising.Xaml</Name>
+      <Version>10.1811.1.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name=Microsoft.Advertising.Xaml, MinVersion=10.1811.1.0, Publisher=%27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Walter Kemey\.nuget\packages\microsoft.advertising.xaml\10.1811.22001\SDK\Windows Kits\10\ExtensionSDKs\Microsoft.Advertising.Xaml\10.0\.\AppX\x86\Microsoft.Advertising.Xaml.x86.10.0.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkID=619694</MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.26706.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.26706.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.26706.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.26706.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM64\Microsoft.VCLibs.ARM64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.26706.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.26706.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.26706.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.26706.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\">
+      <Name>Microsoft.NET.Native.Framework.1.3</Name>
+      <Version>1.3.24201.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.3, MinVersion = 1.3.24201.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\.\arm\ret\Native\Microsoft.NET.Native.Framework.1.3.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\">
+      <Name>Microsoft.NET.Native.Framework.1.3</Name>
+      <Version>1.3.24201.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.3, MinVersion = 1.3.24201.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\.\x64\ret\Native\Microsoft.NET.Native.Framework.1.3.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\">
+      <Name>Microsoft.NET.Native.Framework.1.3</Name>
+      <Version>1.3.24201.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.3, MinVersion = 1.3.24201.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\.\x86\ret\Native\Microsoft.NET.Native.Framework.1.3.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.4\1.4\">
+      <Name>Microsoft.NET.Native.Runtime.1.4</Name>
+      <Version>1.4.24201.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.4, MinVersion = 1.4.24201.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.4\1.4\.\AppX\ARM\Microsoft.NET.Native.Runtime.1.4.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.4\1.4\">
+      <Name>Microsoft.NET.Native.Runtime.1.4</Name>
+      <Version>1.4.24201.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.4, MinVersion = 1.4.24201.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.4\1.4\.\AppX\x64\Microsoft.NET.Native.Runtime.1.4.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.4\1.4\">
+      <Name>Microsoft.NET.Native.Runtime.1.4</Name>
+      <Version>1.4.24201.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.4, MinVersion = 1.4.24201.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.4\1.4\.\AppX\x86\Microsoft.NET.Native.Runtime.1.4.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

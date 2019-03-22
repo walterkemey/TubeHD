@@ -1,0 +1,3 @@
+D:\UWP\TubeMate\Libraries\jint-2.9\Jint\Jint.csproj;neutral
+D:\UWP\TubeMate\Libraries\YouTube\YouTubeStreamAPI.csproj;neutral
+D:\UWP\TubeMate\Main Application\PrimeTube W10.csproj;x86

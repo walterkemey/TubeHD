@@ -1,0 +1,5 @@
+MainPackage=D:\UWP\TubeMate\Main Application\bin\ARM\Release\PrimeTube W10_1.1.76.0_ARM.appx
+ResourcePack=D:\UWP\TubeMate\Main Application\bin\ARM\Release\PrimeTube W10_1.1.76.0_scale-100.appx
+ResourcePack=D:\UWP\TubeMate\Main Application\bin\ARM\Release\PrimeTube W10_1.1.76.0_scale-125.appx
+ResourcePack=D:\UWP\TubeMate\Main Application\bin\ARM\Release\PrimeTube W10_1.1.76.0_scale-150.appx
+ResourcePack=D:\UWP\TubeMate\Main Application\bin\ARM\Release\PrimeTube W10_1.1.76.0_scale-400.appx

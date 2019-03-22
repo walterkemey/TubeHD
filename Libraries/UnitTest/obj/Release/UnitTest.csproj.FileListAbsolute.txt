@@ -1,0 +1,12 @@
+D:\UWP\TubeMate\Libraries\UnitTest\bin\Release\UnitTest.exe.config
+D:\UWP\TubeMate\Libraries\UnitTest\bin\Release\UnitTest.exe
+D:\UWP\TubeMate\Libraries\UnitTest\bin\Release\UnitTest.pdb
+D:\UWP\TubeMate\Libraries\UnitTest\bin\Release\YouTubeStreamAPI.dll
+D:\UWP\TubeMate\Libraries\UnitTest\bin\Release\Jint.dll
+D:\UWP\TubeMate\Libraries\UnitTest\bin\Release\YouTubeStreamAPI.pdb
+D:\UWP\TubeMate\Libraries\UnitTest\bin\Release\Jint.pdb
+D:\UWP\TubeMate\Libraries\UnitTest\obj\Release\UnitTest.csprojAssemblyReference.cache
+D:\UWP\TubeMate\Libraries\UnitTest\obj\Release\UnitTest.csproj.CoreCompileInputs.cache
+D:\UWP\TubeMate\Libraries\UnitTest\obj\Release\UnitTest.csproj.CopyComplete
+D:\UWP\TubeMate\Libraries\UnitTest\obj\Release\UnitTest.exe
+D:\UWP\TubeMate\Libraries\UnitTest\obj\Release\UnitTest.pdb

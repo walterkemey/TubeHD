@@ -1,0 +1,34 @@
+﻿<Page
+    x:Class="PrimeTube.LoginPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Youtube_Music_Video_Downloader__W10_"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:PrimeTube.Controls"
+    mc:Ignorable="d">
+
+    <Grid Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Button x:Name="backButton_Channel" Style="{StaticResource NavigationBackButtonNormalStyle2}"
+                Margin="20,5,0,0"
+                                    VerticalAlignment="Top"
+                                    Tapped="backButton_Channel_Tapped"
+                                    AutomationProperties.Name="Back"
+                                    AutomationProperties.AutomationId="BackButton"
+                                    AutomationProperties.ItemType="Navigation Button" Grid.Row="0"/>
+
+        <WebView x:Name="WebView1" Grid.Row="1"
+                 NavigationCompleted="WebView1_NavigationCompleted" 
+                 NavigationFailed="WebView1_NavigationFailed" 
+                 NavigationStarting="WebView1_NavigationStarting" 
+                 ScriptNotify="WebView1_ScriptNotify" PermissionRequested="WebView1_PermissionRequested" UnsafeContentWarningDisplaying="WebView1_UnsafeContentWarningDisplaying" UnsupportedUriSchemeIdentified="WebView1_UnsupportedUriSchemeIdentified" UnviewableContentIdentified="WebView1_UnviewableContentIdentified" />
+
+
+        <ProgressRing x:Name="ProgressRing1" Height="100" Width="100" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+    </Grid>
+</Page>

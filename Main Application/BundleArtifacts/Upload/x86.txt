@@ -1,0 +1,1 @@
+MainPackage=D:\UWP\TubeMate\Main Application\bin\x86\Release\Upload\PrimeTube W10_1.1.76.0_x86.appx

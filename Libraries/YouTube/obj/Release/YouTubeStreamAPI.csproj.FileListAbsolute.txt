@@ -1,0 +1,9 @@
+D:\UWP\TubeMate\Libraries\YouTube\bin\Release\YouTubeStreamAPI.dll
+D:\UWP\TubeMate\Libraries\YouTube\bin\Release\YouTubeStreamAPI.pdb
+D:\UWP\TubeMate\Libraries\YouTube\bin\Release\Jint.dll
+D:\UWP\TubeMate\Libraries\YouTube\bin\Release\Jint.pdb
+D:\UWP\TubeMate\Libraries\YouTube\obj\Release\YouTubeStreamAPI.csprojAssemblyReference.cache
+D:\UWP\TubeMate\Libraries\YouTube\obj\Release\YouTubeStreamAPI.csproj.CoreCompileInputs.cache
+D:\UWP\TubeMate\Libraries\YouTube\obj\Release\YouTubeStreamAPI.csproj.CopyComplete
+D:\UWP\TubeMate\Libraries\YouTube\obj\Release\YouTubeStreamAPI.dll
+D:\UWP\TubeMate\Libraries\YouTube\obj\Release\YouTubeStreamAPI.pdb

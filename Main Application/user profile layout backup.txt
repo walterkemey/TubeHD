@@ -1,0 +1,113 @@
+
+
+<ScrollViewer x:Name="ScrollViewer_UserProfile" VerticalScrollBarVisibility="Auto" HorizontalScrollMode="Disabled" ZoomMode="Disabled" Grid.Row="4"
+                                  Visibility="Visible">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="180"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+
+                            <Grid Grid.Row="0" Background="#FFEFEFEF">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="6*"/>
+                                    <RowDefinition Height="2*"/>
+                                    <RowDefinition Height="2*"/>
+                                </Grid.RowDefinitions>
+
+                                <Image x:Name="Image_Profilepic" Source="Assets/YouTube/ic_account_switcher_sign_in.png"  HorizontalAlignment="Left" Height="80" Width="80" Stretch="UniformToFill" Margin="20,20,0,0"/>
+                                <TextBlock x:Name="Textblock_username" Text="testyoutubeuser" Grid.Row="1" Foreground="Black" Margin="20,0,0,0" FontSize="17" FontWeight="Bold" VerticalAlignment="Bottom"/>
+                                <TextBlock x:Name="Textblock_emal" Text="test@outlook.com" Grid.Row="2" Foreground="Black" Margin="20,0,0,0" FontSize="17"/>
+                            </Grid>
+
+                            <!-- Navigation area-->
+                            <Grid Grid.Row="1" Background="#FFFFF9F9">
+                                <StackPanel Orientation="Vertical" Margin="20,0,0,0">
+                                    <StackPanel Orientation="Horizontal">
+                                        <Image Height="50" Width="50" Source="Assets/YouTube/ic_drawer_what_to_watch.png"/>
+                                        <Button Content="What to watch" Foreground="Black" Background="Transparent" BorderBrush="Transparent"/>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal">
+                                        <Image Height="50" Width="50" Source="Assets/YouTube/ic_drawer_subscriptions.png"/>
+                                        <Button Content="My subscriptions" Foreground="Black" Background="Transparent" BorderBrush="Transparent"/>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal">
+                                        <Image Height="50" Width="50" Source="Assets/YouTube/ic_drawer_uploads.png"/>
+                                        <Button Content="Uploads" Foreground="Black" Background="Transparent" BorderBrush="Transparent"/>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal">
+                                        <Image Height="50" Width="50" Source="Assets/YouTube/ic_drawer_notifications_inbox.png"/>
+                                        <Button Content="Notifications" Foreground="Black" Background="Transparent" BorderBrush="Transparent"/>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal">
+                                        <Image Height="50" Width="50" Source="Assets/YouTube/ic_drawer_watch_later.png"/>
+                                        <Button Content="Watch later" Foreground="Black" Background="Transparent" BorderBrush="Transparent"/>
+                                    </StackPanel>
+                                </StackPanel>
+                            </Grid>
+
+                            <!-- Playlists-->
+                            <Grid Grid.Row="2" Background="#FFFFF9F9">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="1"/>
+                                    <RowDefinition Height="50"/>
+                                    <RowDefinition Height="1"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+
+                                <Grid Background="Gray" Grid.Row="0"/>
+                                <TextBlock Text="PLAYLISTS" Foreground="Gray" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="21" Margin="20,0,0,0" Grid.Row="1" FontFamily="Segoe UI Light"/>
+                            </Grid>
+
+                            <!-- subscriptions-->
+                            <Grid Grid.Row="3" Background="#FFFFF9F9">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="1"/>
+                                    <RowDefinition Height="50"/>
+                                    <RowDefinition Height="1"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+
+                                <Grid Background="Gray" Grid.Row="0"/>
+                                <TextBlock Text="SUBSCRIPTIONS" Foreground="Gray" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="21" Margin="20,0,0,0" Grid.Row="1" FontFamily="Segoe UI Light"/>
+                            </Grid>
+
+                            <!-- Best of youtube-->
+                            <Grid Grid.Row="4" Background="#FFFFF9F9">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="1"/>
+                                    <RowDefinition Height="50"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+
+                                <Grid Background="Gray" Grid.Row="0"/>
+                                <TextBlock Text="BEST OF YOUTUBE" Foreground="Gray" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="21" Margin="20,0,0,0" Grid.Row="1" FontFamily="Segoe UI Light"/>
+
+                                <StackPanel Grid.Row="2">
+                                    <StackPanel Orientation="Horizontal" Margin="20,0,0,0">
+                                        <Image Height="50" Width="50" Source="Assets/YouTube/q_ic_drawer_favorites_pressed.png"/>
+                                        <Button Content="Popular on YouTube" Foreground="Black" Background="Transparent" BorderBrush="Transparent"/>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal" Margin="20,0,0,0">
+                                        <Image Height="50" Width="50" Source="Assets/YouTube/ic_music_key_badge_guide_disabled.png"/>
+                                        <Button Content="Music" Foreground="Black" Background="Transparent" BorderBrush="Transparent"/>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal" Margin="20,0,0,0">
+                                        <Image Height="50" Width="50" Source="Assets/Sports.png"/>
+                                        <Button Content="Sports" Foreground="Black" Background="Transparent" BorderBrush="Transparent"/>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal" Margin="20,0,0,0">
+                                        <Image Height="50" Width="50" Source="Assets/YouTube/ic_music_key_badge_guide_disabled.png"/>
+                                        <Button Content="Gaming" Foreground="Black" Background="Transparent" BorderBrush="Transparent"/>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal" Margin="20,0,0,0">
+                                        <Image Height="50" Width="50" Source="Assets/YouTube/ic_music_key_badge_guide_disabled.png"/>
+                                        <Button Content="News" Foreground="Black" Background="Transparent" BorderBrush="Transparent"/>
+                                    </StackPanel>
+                                </StackPanel>
+                            </Grid>
+                        </Grid>
+                    </ScrollViewer>
